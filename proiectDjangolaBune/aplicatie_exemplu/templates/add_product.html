@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Adaugă produs</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let priceInput = document.getElementById("id_price");
+            let discountInput = document.getElementById("id_discount_percentage");
+            let taxInput = document.getElementById("id_tax_percentage");
+            let finalPriceDisplay = document.getElementById("final_price");
+
+            function calculateFinalPrice() {
+                let price = parseFloat(priceInput.value) || 0;
+                let discount = parseFloat(discountInput.value) || 0;
+                let tax = parseFloat(taxInput.value) || 0;
+
+                let discountedPrice = price - (price * (discount / 100));
+                let finalPrice = discountedPrice + (discountedPrice * (tax / 100));
+
+                finalPriceDisplay.textContent = "Preț final: " + finalPrice.toFixed(2) + " RON";
+            }
+
+            if (priceInput && discountInput && taxInput) {
+                priceInput.addEventListener("input", calculateFinalPrice);
+                discountInput.addEventListener("input", calculateFinalPrice);
+                taxInput.addEventListener("input", calculateFinalPrice);
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1>Adaugă un produs</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}  <!-- Afișează formularul Django -->
+        <button type="submit">Salvează</button>
+    </form>
+    
+    <p id="final_price">Preț final: 0.00 RON</p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina de Contact</title>
+</head>
+<body>
+    <h1>Trimite un mesaj</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}  <!-- Afișează formularul Django -->
+        <button type="submit">Trimite</button>
+    </form>
+</body>
+</html>
