@@ -85,12 +85,32 @@
         .logout-link:hover {
             text-decoration: underline;
         }
+
+        /* ✅ Stil pentru mesaje de eroare */
+        .error-message {
+            color: red;
+            font-size: 14px;
+            background: #ffebeb;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body>
 
     <div class="login-container">
         <h2>Autentificare</h2>
+
+        <!-- ✅ Afișare mesaje de eroare -->
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li class="error-message">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
         <form method="post">
             {% csrf_token %}
             

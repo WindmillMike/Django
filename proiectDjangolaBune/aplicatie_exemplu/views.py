@@ -7,11 +7,17 @@ from .forms import ContactForm
 from .forms import ProductForm
 from .forms import CustomUserRegistrationForm
 from .models import Category
-from django.contrib.auth import login, logout
+from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.forms import AuthenticationForm, PasswordChangeForm
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import update_session_auth_hash
-from django.contrib.auth.models import User 
+from .forms import send_confirmation_email
+from .models import CustomUser
+from django.contrib.auth import get_user_model
+from django.template.loader import render_to_string
+from django.core.mail import EmailMessage
+from django.conf import settings
+from django.contrib import messages
 
 
 def index(request):
@@ -76,16 +82,46 @@ def add_product(request):
     })
     
 ##############lab6
+
 def register(request):
+    """ Înregistrarea utilizatorului și verificarea email-ului înainte de trimiterea confirmării. """
     if request.method == 'POST':
         form = CustomUserRegistrationForm(request.POST, request.FILES)
         if form.is_valid():
-            form.save()
-            return redirect('login')  # Redirecționează către pagina de login după înregistrare
+            email = form.cleaned_data['email']
+            
+            if get_user_model().objects.filter(email=email).exists():
+                form.add_error('email', 'Acest email este deja folosit.')
+            else:
+                user = form.save()
+                send_confirmation_email(user)
+                return redirect('email_confirmation_sent') 
     else:
         form = CustomUserRegistrationForm()
-    
+
     return render(request, 'register.html', {'form': form})
+
+def confirm_email(request, cod):
+    """ Confirmă email-ul utilizatorului. """
+    try:
+        user = CustomUser.objects.get(cod=cod)
+        print(f"User găsit: {user.username}, Email confirmat: {user.email_confirmat}")
+
+        if user.email_confirmat:
+            messages.info(request, "Email-ul este deja confirmat.")
+        else:
+            user.email_confirmat = True
+            user.cod = None 
+            user.save()
+            print("Email confirmat cu succes!")
+            messages.success(request, "Email-ul a fost confirmat cu succes!")
+
+        return render(request, 'email_confirmed.html')
+
+    except CustomUser.DoesNotExist:
+        print("Cod invalid sau email deja confirmat.")
+        messages.error(request, "Cod invalid sau email deja confirmat.")
+        return render(request, 'email_invalid.html')
 
 #task 3 lab 6
 def custom_login(request):
@@ -93,14 +129,19 @@ def custom_login(request):
         form = AuthenticationForm(request, data=request.POST)
         if form.is_valid():
             user = form.get_user()
+
+            if not user.email_confirmat:
+                messages.error(request, "Trebuie să îți confirmi email-ul înainte de a te autentifica.")
+                return redirect('login')
+
             login(request, user)
 
             request.session['user_id'] = user.id
             request.session['username'] = user.username
             request.session['email'] = user.email
-            request.session['first_name'] = user.first_name  # Dacă ai acest câmp
-            request.session['last_name'] = user.last_name  # Dacă ai acest câmp
-            request.session['is_staff'] = user.is_staff  # Dacă utilizatorul e admin
+            request.session['first_name'] = user.first_name  
+            request.session['last_name'] = user.last_name  
+            request.session['is_staff'] = user.is_staff  
 
             remember_me = request.POST.get('remember_me', False)
             if remember_me:
@@ -149,3 +190,25 @@ def change_password(request):
 def custom_logout(request):
     logout(request)
     return redirect('login')  
+
+#########lab 7
+
+def send_confirmation_email(user):
+    """ Trimite email-ul de confirmare folosind un template HTML. """
+    
+    site_url = "http://192.168.0.115:8000"  # Schimbă cu IP-ul local al laptopului!
+
+    confirmation_link = f"{site_url}/aplicatie_exemplu/confirma_mail/{user.cod}/"
+
+    email_content = render_to_string('email_confirmation_template.html', {
+        'first_name': user.first_name,
+        'last_name': user.last_name,
+        'username': user.username,
+        'confirmation_link': confirmation_link
+    })
+
+    subject = "Confirmă-ți email-ul"
+    
+    email = EmailMessage(subject, email_content, settings.DEFAULT_FROM_EMAIL, [user.email])
+    email.content_subtype = "html"
+    email.send()

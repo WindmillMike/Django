@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmare Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .email-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        .confirm-btn {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .confirm-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="email-container">
+        <img src="https://via.placeholder.com/150" alt="Logo Site" class="logo">
+        <h2>Bun venit, {{ first_name }} {{ last_name }}!</h2>
+        <p>Salut {{ username }},</p>
+        <p>Îți mulțumim că te-ai înregistrat pe site-ul nostru!</p>
+        <p>Pentru a finaliza procesul de înregistrare, te rugăm să îți confirmi email-ul apăsând butonul de mai jos:</p>
+        
+        <a href="{{ confirmation_link }}" class="confirm-btn">Confirmă Email-ul</a>
+
+        <p>Sau poți accesa manual acest link: <br>
+        <a href="{{ confirmation_link }}">{{ confirmation_link }}</a></p>
+
+        <p>Ne bucurăm să te avem alături! 😊</p>
+    </div>
+
+</body>
+</html>
