@@ -1,11 +1,13 @@
-from django import forms
-from .models import Category
-from .models import Product
 import json
 import os
 import time
 import re
+from django import forms
+from .models import Category
+from .models import Product
+from .models import CustomUser
 from datetime import datetime, date
+from django.contrib.auth.forms import AuthenticationForm
 
 class ProductFilterForm(forms.Form):
     name = forms.CharField(required=False, label="Nume produs")
@@ -188,7 +190,7 @@ class ProductForm(forms.ModelForm):
         labels = {
             'name': "Nume Produs",
             'description': "Descriere",
-            'price': "Preț Final",
+            'price': "Preț Inițial",
             'category': "Categorie",
             'stock_quantity': "Stoc"
         }
@@ -201,45 +203,65 @@ class ProductForm(forms.ModelForm):
 
     def clean_price(self):
         price = self.cleaned_data.get('price')
-        if price is not None and price <= 0:
-            raise forms.ValidationError("Prețul trebuie să fie mai mare decât 0.")
-        return price
-
-    def clean_discount_percentage(self):
         discount = self.cleaned_data.get('discount_percentage')
-        if discount is not None and (discount < 0 or discount > 100):
-            raise forms.ValidationError("Reducerea trebuie să fie între 0% și 100%.")
-        return discount
-
-    def clean_tax_percentage(self):
         tax = self.cleaned_data.get('tax_percentage')
-        if tax is not None and (tax < 0 or tax > 50):
-            raise forms.ValidationError("TVA-ul trebuie să fie între 0% și 50%.")
-        return tax
-
-    def clean(self):
-        cleaned_data = super().clean()
-        price = cleaned_data.get('price')
-        discount = cleaned_data.get('discount_percentage')
-        tax = cleaned_data.get('tax_percentage')
 
         if price is not None and discount is not None and tax is not None:
-            # Aplicăm reducerea și TVA-ul
+            # Aplicăm reducerea
             discounted_price = price - (price * (discount / 100))
+            # Aplicăm TVA-ul
             final_price = discounted_price * (1 + tax / 100)
 
             if final_price < 1:
                 raise forms.ValidationError("Prețul final după reducere și TVA nu poate fi mai mic de 1 unitate monetară.")
-
-            # **Actualizăm prețul în instanța modelului pentru a fi salvat**
-            self.instance.price = round(final_price, 2)
-
-        return cleaned_data
+            
+            return round(final_price, 2)
+        return price
 
     def save(self, commit=True):
         product = super().save(commit=False)  # Obținem instanța produsului
-        product.price = self.instance.price  # **Setăm prețul final calculat**
+        product.price = self.clean_price()  # **Setăm prețul final calculat**
 
         if commit:
             product.save()  # Salvăm produsul în baza de date
         return product
+    
+#######wlab 6
+class CustomUserRegistrationForm(forms.ModelForm):
+    password1 = forms.CharField(widget=forms.PasswordInput, label="Parolă")
+    password2 = forms.CharField(widget=forms.PasswordInput, label="Confirmare parolă")
+
+    class Meta:
+        model = CustomUser
+        fields = ['username', 'email', 'phone_number', 'date_of_birth', 'address', 'profile_picture', 'newsletter_subscription', 'company_name']
+
+    def clean_phone_number(self):
+        phone = self.cleaned_data.get('phone_number')
+        if phone and not phone.isdigit():
+            raise forms.ValidationError("Numărul de telefon trebuie să conțină doar cifre.")
+        return phone
+
+    def clean_date_of_birth(self):
+        dob = self.cleaned_data.get('date_of_birth')
+        from datetime import date
+        if dob and dob > date.today():
+            raise forms.ValidationError("Data nașterii nu poate fi în viitor.")
+        return dob
+
+    def clean_password2(self):
+        password1 = self.cleaned_data.get("password1")
+        password2 = self.cleaned_data.get("password2")
+        if password1 and password2 and password1 != password2:
+            raise forms.ValidationError("Parolele nu se potrivesc.")
+        return password2
+
+    def save(self, commit=True):
+        user = super().save(commit=False)
+        user.set_password(self.cleaned_data["password1"])
+        if commit:
+            user.save()
+        return user
+    
+####task3 lab 6
+class CustomLoginForm(AuthenticationForm):
+    remember_me = forms.BooleanField(required=False, initial=False, label="Ține-mă minte")

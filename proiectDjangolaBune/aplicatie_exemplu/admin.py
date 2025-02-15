@@ -1,6 +1,8 @@
 from django.contrib import admin
 from django.utils.translation import gettext_lazy as _
 from .models import Category, Product, Order, OrderProduct, Supplier, ProductSupplier
+from django.contrib.auth.admin import UserAdmin
+from .models import CustomUser
 
 # Personalizare Admin Site - Schimbă titlurile afișate în panoul de administrare
 admin.site.site_header = "Panou de Administrare - Magazin"  # Titlul principal al Admin Panel
@@ -103,3 +105,10 @@ class ProductSupplierAdmin(admin.ModelAdmin):
     search_fields = ['product__name']  # Căutare după numele produsului
 
 #lab6 task1
+class CustomUserAdmin(UserAdmin):
+    model = CustomUser
+    fieldsets = UserAdmin.fieldsets + (
+        ("Informații suplimentare", {"fields": ("phone_number", "date_of_birth", "address", "profile_picture", "newsletter_subscription", "company_name")}),
+    )
+
+admin.site.register(CustomUser, CustomUserAdmin)

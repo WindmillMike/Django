@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+
+        .profile-container h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .profile-info {
+            text-align: left;
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            background-color: #007BFF;
+            color: white;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <h2>Profilul utilizatorului</h2>
+        <div class="profile-info">
+            <p><strong>Utilizator:</strong> {{ user_data.username }}</p>
+            <p><strong>Nume:</strong> {{ user_data.first_name }} {{ user_data.last_name }}</p>
+            <p><strong>Email:</strong> {{ user_data.email }}</p>
+            <p><strong>Membru din:</strong> {{ user_data.date_joined }}</p>
+            <p><strong>Ultima logare:</strong> {{ user_data.last_login }}</p>
+
+            {% if user_data.is_staff %}
+                <p><strong>Rol:</strong> Administrator</p>
+            {% else %}
+                <p><strong>Rol:</strong> Utilizator Normal</p>
+            {% endif %}
+        </div>
+
+        <div class="btn-container">
+            <a href="{% url 'change_password' %}" class="btn">Schimbă Parola</a>
+            <a href="{% url 'logout' %}" class="btn">Logout</a>
+        </div>
+    </div>
+
+</body>
+</html>

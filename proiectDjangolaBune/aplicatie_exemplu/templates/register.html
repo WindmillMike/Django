@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Înregistrare</title>
+</head>
+<body>
+    <h2>Înregistrare utilizator nou</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Înregistrează-te</button>
+    </form>
+</body>
+</html>

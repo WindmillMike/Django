@@ -2,53 +2,108 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filtrare Produse</title>
-    //Bonus
-    <script>
-    // Când pagina s-a încărcat complet, executăm codul de mai jos
-    document.addEventListener("DOMContentLoaded", function () {
-        const form = document.getElementById("product-filter-form");  // Selectăm formularul după ID
-        
-        form.addEventListener("submit", function (event) {
-            event.preventDefault();  // Previne reîncărcarea paginii la trimiterea formularului
-            
-            const formData = new FormData(form);  // Creăm un obiect FormData pentru a colecta datele introduse
-            
-            fetch(form.action, {  // Facem un request către URL-ul din atributul "action" al formularului
-                method: "GET",  // Folosim metoda GET pentru a trimite datele
-                headers: { "X-Requested-With": "XMLHttpRequest" },  // Setăm header-ul pentru a indica un request AJAX
-                body: new URLSearchParams(formData)  // Convertim datele formularului într-un format compatibil cu URL
-            })
-            .then(response => response.json())  // Parsăm răspunsul ca JSON
-            .then(data => {
-                const productList = document.getElementById("product-list");  // Selectăm lista unde vor fi afișate produsele
-                productList.innerHTML = "";  // Ștergem conținutul listei pentru a adăuga datele noi
-                
-                data.products.forEach(product => {  // Parcurgem lista de produse primită din JSON
-                    productList.innerHTML += `<li>${product.name} - ${product.price} - ${product.stock_quantity} - ${product.category__name}</li>`;  // Adăugăm fiecare produs în listă
-                });
-            })
-            .catch(error => console.error("Eroare AJAX:", error));  // Prindem eventualele erori și le afișăm în consolă
-        });
-    });
-    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        #filter-form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        input, select {
+            padding: 8px;
+            font-size: 16px;
+        }
+        .product-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Filtrare Produse</h1>
-    
-    <!-- Formularul pentru filtrarea produselor -->
-    <form id="product-filter-form" method="GET" action="{% url 'filter_products' %}">
-        {{ form.as_p }}  <!-- Django generează câmpurile formularului aici -->
-        <button type="submit">Filtrează</button>  <!-- Buton pentru a trimite formularul -->
+
+    <h2>Filtrează Produsele</h2>
+
+    <form id="filter-form">
+        <input type="text" name="name" id="name-input" placeholder="Nume produs">
+        <select name="category">
+            <option value="">Toate categoriile</option>
+            {% for category in categories %}
+            <option value="{{ category.id }}">{{ category.name }}</option>
+            {% endfor %}
+        </select>
+        <input type="number" name="min_price" placeholder="Preț minim">
+        <input type="number" name="max_price" placeholder="Preț maxim">
+        <input type="number" name="min_stock" placeholder="Stoc minim">
+        <input type="number" name="max_stock" placeholder="Stoc maxim">
     </form>
 
-    <h2>Rezultate</h2>
-    
-    <!-- Lista unde vor fi afișate produsele filtrate -->
-    <ul id="product-list">
-        {% for product in products %}  <!-- Parcurgem produsele primite din view și le afișăm -->
-            <li>{{ product.name }} - {{ product.price }} - {{ product.stock_quantity }} - {{ product.category.name }}</li>
+    <h2>Lista de Produse</h2>
+    <div id="product-list">
+        {% for product in products %}
+        <div class="product-item">
+            <h3>{{ product.name }}</h3>
+            <p>Preț: {{ product.price }} RON</p>
+            <p>Stoc: {{ product.stock_quantity }}</p>
+            <p>Categorie: {{ product.category.name }}</p>
+        </div>
         {% endfor %}
-    </ul>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById("filter-form");
+            const nameInput = document.getElementById("name-input");
+
+            function updateProducts() {
+                const formData = new FormData(form);
+                const queryString = new URLSearchParams(formData).toString();
+
+                fetch(`/aplicatie_exemplu/filter-products/?${queryString}`, {
+                    headers: {
+                        "X-Requested-With": "XMLHttpRequest",
+                    },
+                })
+                .then(response => response.json())
+                .then(data => {
+                    const productContainer = document.getElementById("product-list");
+                    
+                    productContainer.innerHTML = "";
+
+                    if (data.products.length === 0) {
+                        productContainer.innerHTML = "<p>Niciun produs găsit.</p>";
+                        return;
+                    }
+
+                    data.products.forEach(product => {
+                        const productElement = document.createElement("div");
+                        productElement.classList.add("product-item");
+                        productElement.innerHTML = `
+                            <h3>${product.name}</h3>
+                            <p>Preț: ${product.price} RON</p>
+                            <p>Stoc: ${product.stock_quantity}</p>
+                            <p>Categorie: ${product.category__name}</p>
+                        `;
+                        productContainer.appendChild(productElement);
+                    });
+                })
+                .catch(error => console.error("Eroare la filtrare:", error));
+            }
+
+            nameInput.addEventListener("keyup", updateProducts);
+            
+            form.addEventListener("input", updateProducts);
+            form.addEventListener("change", updateProducts);
+        });
+    </script>
+
 </body>
 </html>

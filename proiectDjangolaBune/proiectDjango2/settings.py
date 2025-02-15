@@ -37,9 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',      # Gestionarea sesiunilor utilizatorilor
     'django.contrib.messages',      # Mesaje one-time pentru utilizatori
     'django.contrib.staticfiles',   # Gestionarea fișierelor statice (CSS, JS etc.)
-    'aplicatie_exemplu.apps.AplicatieExempluConfig'                   # Aplicație definită de utilizator (ex. myapp)
+    'aplicatie_exemplu.apps.AplicatieExempluConfig',                   # Aplicație definită de utilizator (ex. myapp)
 ]
 
+AUTH_USER_MODEL = 'aplicatie_exemplu.CustomUser'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -81,8 +82,8 @@ DATABASES = {
         'OPTIONS': {
                 'options': '-c search_path=django'
         },
-        'NAME': 'baza2',   # numele bazei de date
-        'USER': 'maryo4',      # username pt conexiunea la baza de date
+        'NAME': 'baza3',   # numele bazei de date
+        'USER': 'maryo5',      # username pt conexiunea la baza de date
         'PASSWORD': 'maryo',
         'HOST': 'localhost',  # sau IP-ul serverului
         'PORT': '5432',       # portul implicit pentru PostgreSQL
