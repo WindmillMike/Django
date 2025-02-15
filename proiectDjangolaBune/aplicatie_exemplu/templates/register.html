@@ -7,9 +7,37 @@
 <body>
     <h2>Înregistrare utilizator nou</h2>
     <form method="post" enctype="multipart/form-data">
-        {% csrf_token %}
+        {% csrf_token %}  
         {{ form.as_p }}
         <button type="submit">Înregistrează-te</button>
     </form>
+    <script>
+        function getCSRFToken() {
+            let cookieValue = null;
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                let cookie = cookies[i].trim();
+                if (cookie.startsWith("csrftoken=")) {
+                    cookieValue = cookie.substring("csrftoken=".length, cookie.length);
+                    break;
+                }
+            }
+            return cookieValue;
+        }
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            const form = document.querySelector("form");
+            form.addEventListener("submit", function(event) {
+                const csrfToken = getCSRFToken();
+                if (csrfToken) {
+                    const input = document.createElement("input");
+                    input.type = "hidden";
+                    input.name = "csrfmiddlewaretoken";
+                    input.value = csrfToken;
+                    form.appendChild(input);
+                }
+            });
+        });
+        </script>
 </body>
 </html>

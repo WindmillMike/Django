@@ -40,6 +40,14 @@ INSTALLED_APPS = [
     'aplicatie_exemplu.apps.AplicatieExempluConfig',                   # Aplicație definită de utilizator (ex. myapp)
 ]
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com' 
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'Sn0ker019@gmail.com'
+EMAIL_HOST_PASSWORD = 'fqhj tcdg xkrc zhte'
+DEFAULT_FROM_EMAIL = 'Sn0ker019@gmail.com'
+
 AUTH_USER_MODEL = 'aplicatie_exemplu.CustomUser'
 
 MIDDLEWARE = [

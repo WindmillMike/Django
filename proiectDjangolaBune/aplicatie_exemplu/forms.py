@@ -8,6 +8,12 @@ from .models import Product
 from .models import CustomUser
 from datetime import datetime, date
 from django.contrib.auth.forms import AuthenticationForm
+from django.conf import settings
+from django.template.loader import render_to_string
+from django.core.mail import EmailMessage
+from django.core.mail import send_mail, BadHeaderError
+from django.core.validators import validate_email
+from django.core.exceptions import ValidationError
 
 class ProductFilterForm(forms.Form):
     name = forms.CharField(required=False, label="Nume produs")
@@ -233,20 +239,26 @@ class CustomUserRegistrationForm(forms.ModelForm):
 
     class Meta:
         model = CustomUser
-        fields = ['username', 'email', 'phone_number', 'date_of_birth', 'address', 'profile_picture', 'newsletter_subscription', 'company_name']
+        fields = ['username', 'email', 'phone_number', 'date_of_birth', 'address', 
+                'profile_picture', 'newsletter_subscription', 'company_name']
 
-    def clean_phone_number(self):
-        phone = self.cleaned_data.get('phone_number')
-        if phone and not phone.isdigit():
-            raise forms.ValidationError("Numărul de telefon trebuie să conțină doar cifre.")
-        return phone
+    def clean_email(self):
+        email = self.cleaned_data.get('email')
 
-    def clean_date_of_birth(self):
-        dob = self.cleaned_data.get('date_of_birth')
-        from datetime import date
-        if dob and dob > date.today():
-            raise forms.ValidationError("Data nașterii nu poate fi în viitor.")
-        return dob
+        try:
+            validate_email(email)
+        except ValidationError:
+            raise forms.ValidationError("Te rugăm să introduci un email valid.")
+        valid_domains = ["gmail.com", "yahoo.com", "hotmail.com", "outlook.com"]
+        email_domain = email.split('@')[-1]
+
+        if email_domain not in valid_domains:
+            raise forms.ValidationError("Te rugăm să folosești un email de la un furnizor cunoscut (ex: Gmail, Yahoo, Outlook).")
+
+        if CustomUser.objects.filter(email=email).exists():
+            raise forms.ValidationError("Acest email este deja folosit. Te rugăm să alegi altul.")
+
+        return email
 
     def clean_password2(self):
         password1 = self.cleaned_data.get("password1")
@@ -258,10 +270,36 @@ class CustomUserRegistrationForm(forms.ModelForm):
     def save(self, commit=True):
         user = super().save(commit=False)
         user.set_password(self.cleaned_data["password1"])
+        user.generate_confirmation_code() 
         if commit:
             user.save()
         return user
+
     
 ####task3 lab 6
 class CustomLoginForm(AuthenticationForm):
     remember_me = forms.BooleanField(required=False, initial=False, label="Ține-mă minte")
+    
+####lab 7
+
+def send_confirmation_email(user):
+    """ Trimite email-ul de confirmare folosind un template HTML. """
+    confirmation_link = f"http://127.0.0.1:8000/aplicatie-exemplu/confirma_mail/{user.cod}/"
+
+    email_content = render_to_string('email_confirmation_template.html', {
+        'first_name': user.first_name,
+        'last_name': user.last_name,
+        'username': user.username,
+        'confirmation_link': confirmation_link
+    })
+
+    subject = "Confirmă-ți email-ul"
+    
+    try:
+        email = EmailMessage(subject, email_content, settings.DEFAULT_FROM_EMAIL, [user.email])
+        email.content_subtype = "html"
+        email.send()
+    except BadHeaderError:
+        print("Eroare: Header de email invalid")
+    except Exception as e:
+        print(f"Eroare la trimiterea email-ului: {e}")

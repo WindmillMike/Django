@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
+import uuid
 
 # laboratorul 3 taskurile 2 si 3
 class Category(models.Model):
@@ -67,16 +68,27 @@ class ProductSupplier(models.Model):
         return f"{self.supplier.name} supplies {self.product.name}"
 #######################################################################
 #######
-class CustomUser(AbstractUser):
-    phone_number = models.CharField(max_length=15, blank=True, null=True, verbose_name="Număr de telefon", unique=True)
-    date_of_birth = models.DateField(blank=True, null=True, verbose_name="Data nașterii")
-    address = models.TextField(blank=True, null=True, verbose_name="Adresă")
-    profile_picture = models.ImageField(upload_to='profile_pics/', blank=True, null=True, verbose_name="Poză de profil")
-    newsletter_subscription = models.BooleanField(default=False, verbose_name="Abonat la newsletter")
-    company_name = models.CharField(max_length=255, blank=True, null=True, verbose_name="Nume companie")
+########### lab 7
 
+class CustomUser(AbstractUser):
+    phone_number = models.CharField(max_length=15, blank=True, null=True)
+    date_of_birth = models.DateField(blank=True, null=True)
+    address = models.TextField(blank=True, null=True)
+    profile_picture = models.ImageField(upload_to='profile_pics/', blank=True, null=True)
+    newsletter_subscription = models.BooleanField(default=False)
+    company_name = models.CharField(max_length=255, blank=True, null=True)
+
+    cod = models.CharField(max_length=100, null=True, blank=True, unique=True)
+    email_confirmat = models.BooleanField(default=False)
+
+    def generate_confirmation_code(self):
+        """ Generează un cod unic pentru confirmare. """
+        self.cod = str(uuid.uuid4())[:100]
+        self.save()
+        
     class Meta:
         db_table = "custom_user"
 
     def __str__(self):
         return self.username
+
