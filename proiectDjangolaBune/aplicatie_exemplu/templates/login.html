@@ -30,6 +30,31 @@
             color: #333;
         }
 
+        .messages {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 15px;
+        }
+
+        .messages li {
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .messages .error {
+            background-color: #ffdddd;
+            color: #d8000c;
+            border: 1px solid #d8000c;
+        }
+
+        .messages .success {
+            background-color: #ddffdd;
+            color: #4caf50;
+            border: 1px solid #4caf50;
+        }
+
         .form-group {
             text-align: left;
             margin-bottom: 15px;
@@ -91,6 +116,16 @@
 
     <div class="login-container">
         <h2>Autentificare</h2>
+
+        <!-- ✅ Afișarea mesajelor Django -->
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    <li class="{{ message.tags }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
         <form method="post">
             {% csrf_token %}
             

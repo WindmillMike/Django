@@ -3,9 +3,8 @@ from .views import filter_products
 from .views import contact_view
 from .views import add_product
 from .views import register
+from .views import confirm_email
 from .views import custom_login, custom_logout, profile, change_password
-from django.contrib.auth import views as auth_views
-from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 
 def dashboard(request):
@@ -22,4 +21,5 @@ urlpatterns = [
     path('logout/', custom_logout, name='logout'),
     path('profile/', profile, name='profile'),
     path('change-password/', change_password, name='change_password'),
+    path('confirma_mail/<str:cod>/', confirm_email, name='confirm_email'),
 ]

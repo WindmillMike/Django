@@ -74,6 +74,9 @@ class CustomUser(AbstractUser):
     profile_picture = models.ImageField(upload_to='profile_pics/', blank=True, null=True, verbose_name="Poză de profil")
     newsletter_subscription = models.BooleanField(default=False, verbose_name="Abonat la newsletter")
     company_name = models.CharField(max_length=255, blank=True, null=True, verbose_name="Nume companie")
+    
+    cod = models.CharField(max_length=100, blank=True, null=True, unique=True)
+    email_confirmat = models.BooleanField(default=False)
 
     class Meta:
         db_table = "custom_user"
