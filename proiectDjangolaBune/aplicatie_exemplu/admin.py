@@ -3,6 +3,9 @@ from django.utils.translation import gettext_lazy as _
 from .models import Category, Product, Order, OrderProduct, Supplier, ProductSupplier
 from django.contrib.auth.admin import UserAdmin
 from .models import CustomUser
+from .models import Promotie
+from .models import Vizualizare
+from django.db.models import Count
 
 # Personalizare Admin Site - Schimbă titlurile afișate în panoul de administrare
 admin.site.site_header = "Panou de Administrare - Magazin"  # Titlul principal al Admin Panel
@@ -105,10 +108,33 @@ class ProductSupplierAdmin(admin.ModelAdmin):
     search_fields = ['product__name']  # Căutare după numele produsului
 
 #lab6 task1
+class VizualizareInline(admin.TabularInline):
+    model = Vizualizare
+    extra = 0  # Nu adaugă rânduri goale
+
 class CustomUserAdmin(UserAdmin):
     model = CustomUser
     fieldsets = UserAdmin.fieldsets + (
         ("Informații suplimentare", {"fields": ("phone_number", "date_of_birth", "address", "profile_picture", "newsletter_subscription", "company_name")}),
     )
+    inlines = [VizualizareInline]  # Afișează vizualizările direct în pagina userului
+
 
 admin.site.register(CustomUser, CustomUserAdmin)
+
+
+###lab 7 task 2
+@admin.register(Promotie)
+class PromotieAdmin(admin.ModelAdmin):
+    list_display = ('nume', 'data_expirare', 'discount')
+    search_fields = ('nume',)
+    list_filter = ('data_expirare',)
+
+
+class VizualizareAdmin(admin.ModelAdmin):
+    list_display = ('utilizator', 'produs', 'numar_vizualizari')  # ✅ Folosește direct câmpul existent
+    list_filter = ('utilizator',)
+    search_fields = ('utilizator__username', 'produs__name')
+
+admin.site.register(Vizualizare, VizualizareAdmin)
+

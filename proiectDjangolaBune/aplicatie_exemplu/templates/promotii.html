@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Adaugă Promoție</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,16 +15,16 @@
             margin: 0;
         }
 
-        .login-container {
+        .container {
             background: white;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            width: 350px;
+            width: 400px;
             text-align: center;
         }
 
-        .login-container h2 {
+        h2 {
             margin-bottom: 20px;
             font-size: 24px;
             color: #333;
@@ -41,6 +41,7 @@
             border-radius: 5px;
             text-align: center;
             font-size: 14px;
+            margin-bottom: 10px;
         }
 
         .messages .error {
@@ -67,7 +68,9 @@
             margin-bottom: 5px;
         }
 
-        .form-group input {
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
             width: 100%;
             padding: 10px;
             font-size: 16px;
@@ -76,16 +79,14 @@
             outline: none;
         }
 
-        .remember-me {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 14px;
+        .form-group textarea {
+            resize: vertical;
+            height: 80px;
         }
 
-        .login-btn {
+        .submit-btn {
             width: 100%;
-            background-color: #007BFF;
+            background-color: #28a745;
             color: white;
             border: none;
             padding: 12px;
@@ -95,27 +96,47 @@
             margin-top: 10px;
         }
 
-        .login-btn:hover {
-            background-color: #0056b3;
+        .submit-btn:hover {
+            background-color: #218838;
         }
 
-        .logout-link {
+        .back-link {
             margin-top: 15px;
-            display: inline-block;
+            display: block;
             text-decoration: none;
             color: #007BFF;
             font-size: 14px;
         }
 
-        .logout-link:hover {
+        .back-link:hover {
             text-decoration: underline;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .checkbox-group label {
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .errorlist {
+            color: red;
+            font-size: 14px;
+            list-style: none;
+            padding-left: 0;
         }
     </style>
 </head>
 <body>
 
-    <div class="login-container">
-        <h2>Autentificare</h2>
+    <div class="container">
+        <h2>Adaugă Promoție</h2>
 
         <!-- ✅ Afișarea mesajelor Django -->
         {% if messages %}
@@ -128,26 +149,43 @@
 
         <form method="post">
             {% csrf_token %}
-            
-            <div class="form-group">
-                <label for="id_username">Utilizator:</label>
-                {{ form.username }}
-            </div>
 
             <div class="form-group">
-                <label for="id_password">Parolă:</label>
-                {{ form.password }}
+                <label for="id_nume">Nume Promoție:</label>
+                {{ form.nume }}
+                {{ form.nume.errors }}
             </div>
 
-            <div class="form-group remember-me">
-                <input type="checkbox" name="remember_me" id="id_remember_me">
-                <label for="id_remember_me">Ține-mă minte</label>
+            <div class="form-group">
+                <label for="id_data_expirare">Data Expirării (DD/MM/YYYY):</label>
+                {{ form.data_expirare }}
+                {{ form.data_expirare.errors }}
             </div>
 
-            <button type="submit" class="login-btn">Login</button>
+            <div class="form-group">
+                <label for="id_discount">Discount (%):</label>
+                {{ form.discount }}
+                {{ form.discount.errors }}
+            </div>
+
+            <div class="form-group">
+                <label for="id_descriere">Descriere:</label>
+                {{ form.descriere }}
+                {{ form.descriere.errors }}
+            </div>
+
+            <div class="form-group">
+                <label for="id_categorii">Categorii:</label>
+                <div class="checkbox-group">
+                    {{ form.categorii }}
+                </div>
+                {{ form.categorii.errors }}
+            </div>
+
+            <button type="submit" class="submit-btn">Creează Promoție</button>
         </form>
 
-        <a href="{% url 'logout' %}" class="logout-link">Logout</a>
+        <a href="{% url 'index' %}" class="back-link">Înapoi la pagină principală</a>
     </div>
 
 </body>

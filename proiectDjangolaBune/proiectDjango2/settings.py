@@ -40,6 +40,14 @@ INSTALLED_APPS = [
     'aplicatie_exemplu.apps.AplicatieExempluConfig',                   # Aplicație definită de utilizator (ex. myapp)
 ]
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'Sn0ker019@gmail.com'  # Înlocuiește cu adresa ta reală
+EMAIL_HOST_PASSWORD = 'ihwj jgpe rlpt jtfg'  # Ai grijă să nu salvezi parola în cod
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
 AUTH_USER_MODEL = 'aplicatie_exemplu.CustomUser'
 
 MIDDLEWARE = [
@@ -83,14 +91,12 @@ DATABASES = {
                 'options': '-c search_path=django'
         },
         'NAME': 'baza3',   # numele bazei de date
-        'USER': 'maryo5',      # username pt conexiunea la baza de date
+        'USER': 'maryo6',      # username pt conexiunea la baza de date
         'PASSWORD': 'maryo',
         'HOST': 'localhost',  # sau IP-ul serverului
         'PORT': '5432',       # portul implicit pentru PostgreSQL
     }
 }
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators

@@ -6,6 +6,7 @@ from django import forms
 from .models import Category
 from .models import Product
 from .models import CustomUser
+from .models import Promotie
 from datetime import datetime, date
 from django.contrib.auth.forms import AuthenticationForm
 
@@ -265,3 +266,54 @@ class CustomUserRegistrationForm(forms.ModelForm):
 ####task3 lab 6
 class CustomLoginForm(AuthenticationForm):
     remember_me = forms.BooleanField(required=False, initial=False, label="Ține-mă minte")
+    
+    
+    
+###lab 7 task 2
+
+class PromotieForm(forms.ModelForm):
+    categorii = forms.ModelMultipleChoiceField(
+        queryset=Category.objects.all(),
+        widget=forms.CheckboxSelectMultiple,
+        required=True,
+        label="Categorii incluse"
+    )
+
+    data_expirare = forms.CharField(
+        label="Data Expirării (DD/MM/YYYY)",
+        widget=forms.TextInput(attrs={'placeholder': 'DD/MM/YYYY'})
+    )
+
+    class Meta:
+        model = Promotie
+        fields = ['nume', 'data_expirare', 'discount', 'descriere', 'categorii']
+
+    def clean_data_expirare(self):
+        """ Validare pentru data expirării în format DD/MM/YYYY """
+        data_str = self.cleaned_data['data_expirare']
+        try:
+            data_formatata = datetime.strptime(data_str, "%d/%m/%Y")
+            return data_formatata
+        except ValueError:
+            raise forms.ValidationError("Data trebuie să fie în formatul DD/MM/YYYY!")
+
+    def clean_discount(self):
+        """ Validare pentru discount între 0 și 100% """
+        discount = self.cleaned_data['discount']
+        if discount < 0 or discount > 100:
+            raise forms.ValidationError("Discountul trebuie să fie între 0 și 100%!")
+        return discount
+
+    def clean_nume(self):
+        """ Validare pentru nume (obligatoriu) """
+        nume = self.cleaned_data['nume'].strip()
+        if not nume:
+            raise forms.ValidationError("Numele promoției este obligatoriu!")
+        return nume
+
+    def clean_descriere(self):
+        """ Validare pentru descriere (minim 5 caractere, maxim 300) """
+        descriere = self.cleaned_data['descriere'].strip()
+        if len(descriere) < 5 or len(descriere) > 300:
+            raise forms.ValidationError("Descrierea trebuie să aibă între 5 și 300 de caractere!")
+        return descriere
