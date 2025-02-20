@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Promoție Specială</title>
+</head>
+<body>
+    <h2>Bună, {{ user.first_name }}!</h2>
+    <p>Avem o promoție specială pentru tine la categoria <strong>{{ categorie }}</strong>!</p>
+    <p>Promoție: <strong>{{ promotie.nume }}</strong></p>
+    <p>Discount: <strong>{{ promotie.discount }}%</strong></p>
+    <p>Valabil până la: <strong>{{ promotie.data_expirare }}</strong></p>
+    <p><a href="http://127.0.0.1:8000/aplicatie_exemplu/shop/">Profită acum!</a></p>
+
+    <img src="URL_CĂTRE_LOGO" alt="Logo Magazin" style="width: 150px; margin-top: 20px;">
+</body>
+</html>

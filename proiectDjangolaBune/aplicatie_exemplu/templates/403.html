@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eroare 403 - Acces interzis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 400px;
+        }
+        h1 {
+            color: #d9534f;
+        }
+        p {
+            font-size: 16px;
+            color: #333;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ titlu|default:"Eroare 403" }}</h1>
+
+        {% if user.is_authenticated %}
+            <p>Salut, {{ user.username }}!</p>
+        {% else %}
+            <p>Salut preastimate anonim!</p>
+        {% endif %}
+
+        <p>{{ mesaj_personalizat|default:"Nu ai permisiunea de a accesa această resursă." }}</p>
+
+        <a href="{% url 'home' %}" class="back-link">Înapoi la pagina principală</a>
+    </div>
+</body>
+</html>

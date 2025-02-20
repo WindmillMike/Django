@@ -1,0 +1,2048 @@
+[INFO] 2025-02-20 03:53:48,935 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 03:54:56,300 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 03:54:56,966 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 03:55:00,294 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 03:55:00,825 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 03:58:27,861 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 03:58:28,242 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 03:58:35,661 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 4444
+[INFO] 2025-02-20 03:58:39,342 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 63
+[INFO] 2025-02-20 03:58:39,415 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2324
+[INFO] 2025-02-20 03:58:40,455 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 03:58:40,463 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 03:59:00,332 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:00:09,279 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:00:09,849 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:01:20,966 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:01:21,575 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:01:43,186 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:01:47,663 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 4444
+[INFO] 2025-02-20 04:01:59,213 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:01:59,348 basehttp - "GET /admin/login/?next=/admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 4224
+[INFO] 2025-02-20 04:02:01,663 basehttp - "POST /admin/login/?next=/admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:02:01,871 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 16835
+[INFO] 2025-02-20 04:02:02,032 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:02:16,769 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 3462
+[INFO] 2025-02-20 04:02:39,231 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:41,545 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:44,777 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:45,282 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:45,968 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:46,431 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:46,651 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:51,218 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 170
+[INFO] 2025-02-20 04:02:51,613 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 140
+[INFO] 2025-02-20 04:02:52,942 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:03:38,051 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:03:38,736 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:03:39,742 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:03:43,796 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:03:47,999 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 63
+[INFO] 2025-02-20 04:03:48,081 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2324
+[INFO] 2025-02-20 04:03:49,656 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:03:49,664 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:13:55,213 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:13:55,863 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:14:21,798 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\settings.py changed, reloading.
+[INFO] 2025-02-20 04:14:22,470 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:14:53,557 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\settings.py changed, reloading.
+[INFO] 2025-02-20 04:14:54,112 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:15:17,927 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\settings.py changed, reloading.
+[INFO] 2025-02-20 04:15:18,533 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:16:12,068 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:16:12,601 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:16:20,104 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:16:20,700 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:17:07,001 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:17:07,676 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:17:13,015 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:17:13,542 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:17:30,234 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 04:17:30,819 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:17:36,177 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 04:17:36,869 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:18:01,759 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:18:02,246 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:18:10,631 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:18:11,282 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:18:32,062 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:18:32,610 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:20:35,653 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\admin.py changed, reloading.
+[INFO] 2025-02-20 04:20:36,351 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:21:45,138 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:21:45,720 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:22:01,261 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:22:01,744 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:22:18,287 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:22:18,770 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:22:52,677 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:22:53,200 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:23:58,695 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:23:59,168 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:24:56,592 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:25:30,609 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\admin.py changed, reloading.
+[INFO] 2025-02-20 04:25:31,244 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:27:23,773 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:27:23,878 basehttp - "GET /admin/login/?next=/admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 4224
+[INFO] 2025-02-20 04:27:25,822 basehttp - "POST /admin/login/?next=/admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:27:26,060 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19315
+[INFO] 2025-02-20 04:27:26,167 basehttp - "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[INFO] 2025-02-20 04:27:26,216 basehttp - "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[INFO] 2025-02-20 04:27:26,233 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:28,970 basehttp - "GET /admin/aplicatie_exemplu/promotie/ HTTP/1.1" 200 15493
+[INFO] 2025-02-20 04:27:29,101 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:29,994 basehttp - "GET /admin/aplicatie_exemplu/supplier/ HTTP/1.1" 200 11748
+[INFO] 2025-02-20 04:27:30,130 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:30,791 basehttp - "GET /admin/aplicatie_exemplu/vizualizare/ HTTP/1.1" 200 15577
+[INFO] 2025-02-20 04:27:30,913 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:33,274 basehttp - "GET /admin/aplicatie_exemplu/product/ HTTP/1.1" 200 16249
+[INFO] 2025-02-20 04:27:33,399 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:34,306 basehttp - "GET /admin/aplicatie_exemplu/productsupplier/ HTTP/1.1" 200 11802
+[INFO] 2025-02-20 04:27:34,529 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:35,178 basehttp - "GET /admin/aplicatie_exemplu/order/ HTTP/1.1" 200 13272
+[INFO] 2025-02-20 04:27:35,318 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:36,274 basehttp - "GET /admin/aplicatie_exemplu/orderproduct/ HTTP/1.1" 200 11781
+[INFO] 2025-02-20 04:27:36,491 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:37,048 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19315
+[INFO] 2025-02-20 04:27:37,262 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:45,671 basehttp - "GET /admin/aplicatie_exemplu/category/ HTTP/1.1" 200 13038
+[INFO] 2025-02-20 04:27:45,803 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:46,588 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19315
+[INFO] 2025-02-20 04:27:46,719 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:47,993 basehttp - "GET /admin/auth/group/ HTTP/1.1" 200 11703
+[INFO] 2025-02-20 04:27:48,218 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:49,847 basehttp - "GET /admin/aplicatie_exemplu/category/ HTTP/1.1" 200 13038
+[INFO] 2025-02-20 04:27:49,978 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:28:07,649 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:28:59,358 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 3115
+[INFO] 2025-02-20 04:29:01,754 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 3115
+[INFO] 2025-02-20 04:29:48,152 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19315
+[INFO] 2025-02-20 04:29:48,300 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:29:54,115 basehttp - "POST /admin/logout/ HTTP/1.1" 200 3561
+[INFO] 2025-02-20 04:29:57,371 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 302 0
+[WARNING] 2025-02-20 04:29:57,478 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:29:57,478 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[WARNING] 2025-02-20 04:30:00,683 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:30:00,683 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[WARNING] 2025-02-20 04:30:01,282 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:30:01,282 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[WARNING] 2025-02-20 04:30:10,581 log - Forbidden (CSRF token from POST incorrect.): /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 04:30:10,581 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:30:12,299 log - Forbidden (CSRF token from POST incorrect.): /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 04:30:12,299 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:30:15,712 log - Forbidden (CSRF token from POST incorrect.): /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 04:30:15,712 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:30:17,228 log - Forbidden (CSRF token from POST incorrect.): /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 04:30:17,228 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 403 2503
+[INFO] 2025-02-20 04:30:18,209 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:30:48,194 basehttp - "POST /admin/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:30:52,095 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:30:52,127 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:30:52,184 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4166
+[INFO] 2025-02-20 04:30:53,249 basehttp - - Broken pipe from ('127.0.0.1', 52854)
+[WARNING] 2025-02-20 04:30:53,291 log - Bad Request: /aplicatie_exemplu/login/
+[INFO] 2025-02-20 04:30:53,316 basehttp - - Broken pipe from ('127.0.0.1', 52851)
+[WARNING] 2025-02-20 04:30:53,332 log - Bad Request: /aplicatie_exemplu/login/
+[INFO] 2025-02-20 04:30:53,332 basehttp - - Broken pipe from ('127.0.0.1', 52852)
+[INFO] 2025-02-20 04:30:59,525 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:31:02,572 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:31:06,566 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 63
+[INFO] 2025-02-20 04:31:06,646 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2324
+[INFO] 2025-02-20 04:31:08,126 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:31:08,134 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[WARNING] 2025-02-20 04:31:10,665 log - Bad Request: /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 04:31:10,665 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 400 106
+[INFO] 2025-02-20 04:31:20,099 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 63
+[INFO] 2025-02-20 04:31:20,289 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2324
+[WARNING] 2025-02-20 04:31:22,358 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:31:22,358 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[INFO] 2025-02-20 04:31:24,447 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:31:24,455 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[WARNING] 2025-02-20 04:31:26,165 log - Forbidden (CSRF token from POST incorrect.): /admin/login/
+[WARNING] 2025-02-20 04:31:26,165 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:31:29,285 log - Forbidden (CSRF token from POST incorrect.): /admin/login/
+[WARNING] 2025-02-20 04:31:29,285 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2503
+[INFO] 2025-02-20 04:31:34,888 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4166
+[INFO] 2025-02-20 04:31:39,599 basehttp - "GET /admin/l HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:31:39,616 basehttp - "GET /admin/login/?next=/admin/l HTTP/1.1" 200 4168
+[INFO] 2025-02-20 04:31:42,190 basehttp - "POST /admin/login/?next=/admin/l HTTP/1.1" 302 0
+[WARNING] 2025-02-20 04:31:42,326 log - Not Found: /admin/l
+[WARNING] 2025-02-20 04:31:42,326 basehttp - "GET /admin/l HTTP/1.1" 404 7580
+[INFO] 2025-02-20 04:32:13,988 basehttp - "GET /admin/login/?next=/admin/l HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:32:14,209 basehttp - "GET /admin/ HTTP/1.1" 200 14992
+[INFO] 2025-02-20 04:32:18,667 basehttp - "POST /admin/logout/ HTTP/1.1" 200 3561
+[INFO] 2025-02-20 04:32:20,270 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:32:20,278 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4166
+[INFO] 2025-02-20 04:32:23,937 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:32:24,018 basehttp - "GET /admin/ HTTP/1.1" 200 14992
+[INFO] 2025-02-20 04:32:24,099 basehttp - "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[WARNING] 2025-02-20 04:32:31,463 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:32:31,463 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[INFO] 2025-02-20 04:32:33,625 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 3115
+[INFO] 2025-02-20 04:32:36,764 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 3115
+[INFO] 2025-02-20 04:32:39,997 basehttp - "POST /admin/logout/ HTTP/1.1" 200 3561
+[INFO] 2025-02-20 04:32:44,397 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 302 0
+[WARNING] 2025-02-20 04:32:44,405 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:32:44,405 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[INFO] 2025-02-20 04:32:47,228 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:32:47,237 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4166
+[INFO] 2025-02-20 04:32:49,277 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:32:49,359 basehttp - "GET /admin/ HTTP/1.1" 200 14992
+[WARNING] 2025-02-20 04:32:52,757 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:32:52,757 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[WARNING] 2025-02-20 04:32:53,686 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:32:53,686 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[WARNING] 2025-02-20 04:32:54,364 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:32:54,364 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[WARNING] 2025-02-20 04:32:54,526 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:32:54,526 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[WARNING] 2025-02-20 04:32:54,698 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:32:54,698 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[WARNING] 2025-02-20 04:32:54,836 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:32:54,836 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[WARNING] 2025-02-20 04:32:54,990 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:32:54,990 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[WARNING] 2025-02-20 04:32:56,130 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:32:56,130 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[WARNING] 2025-02-20 04:33:00,213 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:33:00,213 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[INFO] 2025-02-20 04:33:16,854 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 3115
+[INFO] 2025-02-20 04:33:21,829 basehttp - "POST /admin/logout/ HTTP/1.1" 200 3561
+[INFO] 2025-02-20 04:33:24,732 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 302 0
+[WARNING] 2025-02-20 04:33:24,740 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:33:24,748 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[INFO] 2025-02-20 04:33:34,576 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 302 0
+[WARNING] 2025-02-20 04:33:34,600 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:33:34,600 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/add-product/ HTTP/1.1" 404 2426
+[INFO] 2025-02-20 04:33:37,418 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:33:37,442 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4166
+[INFO] 2025-02-20 04:33:38,829 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:33:38,903 basehttp - "GET /admin/ HTTP/1.1" 200 14992
+[INFO] 2025-02-20 04:33:46,563 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 3115
+[INFO] 2025-02-20 04:33:52,313 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19315
+[INFO] 2025-02-20 04:33:52,466 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[WARNING] 2025-02-20 04:35:20,782 log - Forbidden (CSRF token from POST incorrect.): /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 04:35:20,782 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:35:21,425 log - Forbidden (CSRF token from POST incorrect.): /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 04:35:21,433 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 403 2503
+[INFO] 2025-02-20 04:35:24,115 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[WARNING] 2025-02-20 04:35:27,218 log - Bad Request: /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 04:35:27,218 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 400 106
+[INFO] 2025-02-20 04:35:31,711 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 63
+[INFO] 2025-02-20 04:35:31,791 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2324
+[INFO] 2025-02-20 04:35:32,957 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:35:32,965 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:37:02,479 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:37:03,102 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:37:32,126 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:37:32,661 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:38:04,829 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 04:38:05,430 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:38:08,710 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 04:38:09,254 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:38:14,529 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 04:38:15,193 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:39:22,155 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:39:22,653 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:40:01,662 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:40:02,359 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:40:27,217 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:40:27,938 autoreload - Watching for file changes with StatReloader
+[WARNING] 2025-02-20 04:40:48,642 log - Not Found: /aplicatie_exemplu/index/
+[WARNING] 2025-02-20 04:40:48,642 basehttp - "GET /aplicatie_exemplu/index/ HTTP/1.1" 404 7066
+[INFO] 2025-02-20 04:42:40,794 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 302 0
+[WARNING] 2025-02-20 04:42:40,819 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:42:40,819 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/oferta/ HTTP/1.1" 404 2421
+[WARNING] 2025-02-20 04:43:00,099 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:43:00,099 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/claim_oferta/ HTTP/1.1" 404 2427
+[WARNING] 2025-02-20 04:43:58,121 log - Not Found: /aplicatie_exemplu/claim_oferta/
+[WARNING] 2025-02-20 04:43:58,121 basehttp - "GET /aplicatie_exemplu/claim_oferta/ HTTP/1.1" 404 7087
+[INFO] 2025-02-20 04:44:18,107 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\settings.py changed, reloading.
+[INFO] 2025-02-20 04:44:18,714 autoreload - Watching for file changes with StatReloader
+[WARNING] 2025-02-20 04:44:19,220 log - Not Found: /aplicatie_exemplu/claim_oferta/
+[WARNING] 2025-02-20 04:44:19,220 basehttp - "GET /aplicatie_exemplu/claim_oferta/ HTTP/1.1" 404 7087
+[WARNING] 2025-02-20 04:44:21,500 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:44:21,508 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/claim_oferta/ HTTP/1.1" 404 2427
+[WARNING] 2025-02-20 04:44:21,750 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:44:21,750 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/claim_oferta/ HTTP/1.1" 404 2427
+[WARNING] 2025-02-20 04:44:21,894 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:44:21,894 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/claim_oferta/ HTTP/1.1" 404 2427
+[WARNING] 2025-02-20 04:44:22,071 log - Not Found: /accounts/login/
+[WARNING] 2025-02-20 04:44:22,071 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/claim_oferta/ HTTP/1.1" 404 2427
+[INFO] 2025-02-20 04:44:40,503 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\urls.py changed, reloading.
+[INFO] 2025-02-20 04:44:41,104 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:44:49,436 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\urls.py changed, reloading.
+[INFO] 2025-02-20 04:44:49,980 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:44:51,373 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/claim_oferta/ HTTP/1.1" 200 4419
+[INFO] 2025-02-20 04:44:54,443 basehttp - "POST /accounts/login/ HTTP/1.1" 302 0
+[WARNING] 2025-02-20 04:44:54,451 log - Not Found: /accounts/profile/
+[WARNING] 2025-02-20 04:44:54,451 basehttp - "GET /accounts/profile/ HTTP/1.1" 404 2567
+[WARNING] 2025-02-20 04:44:56,946 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:44:56,946 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:44:58,371 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:44:58,371 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:44:59,803 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:44:59,803 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:00,076 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:00,076 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:00,259 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:00,259 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:00,454 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:00,454 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:00,692 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:00,692 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:00,917 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:00,917 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:01,168 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:01,168 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:01,389 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:01,389 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:01,605 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:01,605 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:01,772 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:01,772 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:01,961 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:01,969 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:02,124 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:02,124 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:05,376 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:05,385 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[WARNING] 2025-02-20 04:45:05,973 log - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+[WARNING] 2025-02-20 04:45:05,973 basehttp - "POST /accounts/login/ HTTP/1.1" 403 2503
+[INFO] 2025-02-20 04:45:06,840 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/claim_oferta/ HTTP/1.1" 200 4419
+[INFO] 2025-02-20 04:45:12,456 basehttp - "POST /accounts/login/ HTTP/1.1" 302 0
+[WARNING] 2025-02-20 04:45:12,464 log - Not Found: /accounts/profile/
+[WARNING] 2025-02-20 04:45:12,464 basehttp - "GET /accounts/profile/ HTTP/1.1" 404 2567
+[INFO] 2025-02-20 04:45:27,804 basehttp - "GET /accounts/login/?next=/aplicatie_exemplu/oferta/ HTTP/1.1" 200 4419
+[INFO] 2025-02-20 04:45:31,740 basehttp - "POST /accounts/login/ HTTP/1.1" 302 0
+[WARNING] 2025-02-20 04:45:31,748 log - Not Found: /accounts/profile/
+[WARNING] 2025-02-20 04:45:31,748 basehttp - "GET /accounts/profile/ HTTP/1.1" 404 2567
+[INFO] 2025-02-20 04:46:25,756 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4419
+[INFO] 2025-02-20 04:47:23,337 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\settings.py changed, reloading.
+[INFO] 2025-02-20 04:47:23,921 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:47:44,607 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\urls.py changed, reloading.
+[INFO] 2025-02-20 04:47:45,107 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:47:52,845 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[WARNING] 2025-02-20 04:47:54,895 log - Bad Request: /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 04:47:54,903 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 400 106
+[INFO] 2025-02-20 04:47:58,059 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 63
+[INFO] 2025-02-20 04:47:58,140 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2324
+[INFO] 2025-02-20 04:47:59,772 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:47:59,780 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:48:05,683 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:48:05,700 basehttp - "GET /aplicatie_exemplu/login/?next=/aplicatie_exemplu/oferta/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:48:12,314 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 63
+[INFO] 2025-02-20 04:48:12,393 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2324
+[INFO] 2025-02-20 04:53:14,365 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:53:14,956 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:53:24,434 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:53:25,007 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:53:29,833 basehttp - "GET /aplicatie_exemplu/login/?next=/aplicatie_exemplu/oferta/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:53:30,978 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[ERROR] 2025-02-20 04:53:35,461 log - Internal Server Error: /aplicatie_exemplu/oferta/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py", line 442, in oferta
+    return render(request, "403.html", {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+[ERROR] 2025-02-20 04:53:35,461 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 500 121833
+[WARNING] 2025-02-20 04:54:03,532 log - Not Found: /aplicatie_exemplu/claim_oferta/
+[WARNING] 2025-02-20 04:54:03,532 basehttp - "GET /aplicatie_exemplu/claim_oferta/ HTTP/1.1" 404 7087
+[INFO] 2025-02-20 04:54:17,859 basehttp - "GET /aplicatie_exemplu/claim_offer/ HTTP/1.1" 200 18
+[INFO] 2025-02-20 04:55:22,158 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:55:22,688 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:55:26,011 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:55:26,511 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:55:34,950 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 04:55:35,437 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:55:44,893 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 04:55:45,436 autoreload - Watching for file changes with StatReloader
+[WARNING] 2025-02-20 04:56:19,154 log - Forbidden: /aplicatie_exemplu/oferta/
+[WARNING] 2025-02-20 04:56:19,154 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 403 1472
+[INFO] 2025-02-20 04:56:24,637 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[WARNING] 2025-02-20 04:56:37,684 log - Forbidden (CSRF token from POST incorrect.): /admin/aplicatie_exemplu/customuser/
+[WARNING] 2025-02-20 04:56:37,684 basehttp - "POST /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 403 2503
+[INFO] 2025-02-20 04:57:13,979 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:57:14,244 basehttp - "GET /admin/login/?next=/admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 3740
+[INFO] 2025-02-20 04:57:16,060 basehttp - "POST /admin/login/?next=/admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:57:16,166 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19315
+[INFO] 2025-02-20 04:57:16,337 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:57:19,914 basehttp - "POST /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:57:20,080 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19468
+[INFO] 2025-02-20 04:57:20,210 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:57:24,435 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 04:57:29,003 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 285
+[INFO] 2025-02-20 04:57:32,180 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 04:57:35,893 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[WARNING] 2025-02-20 04:57:42,885 log - Bad Request: /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 04:57:42,885 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 400 106
+[INFO] 2025-02-20 04:57:46,681 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 64
+[INFO] 2025-02-20 04:57:46,755 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2320
+[INFO] 2025-02-20 04:57:51,436 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:57:51,444 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:58:20,912 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 04:59:23,843 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 3462
+[INFO] 2025-02-20 04:59:29,482 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 05:02:51,013 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:02:52,282 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 3462
+[INFO] 2025-02-20 05:06:17,747 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6725
+[INFO] 2025-02-20 05:08:36,637 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6232
+[INFO] 2025-02-20 05:08:45,249 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 5792
+[INFO] 2025-02-20 05:08:49,766 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6725
+[INFO] 2025-02-20 05:09:00,389 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6488
+[INFO] 2025-02-20 05:09:38,308 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:09:40,439 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6488
+[INFO] 2025-02-20 05:09:45,478 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:09:46,844 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6488
+[INFO] 2025-02-20 05:09:48,551 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:09:49,675 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6488
+[INFO] 2025-02-20 05:10:15,377 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6843
+[INFO] 2025-02-20 05:10:17,675 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:10:19,120 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6843
+[INFO] 2025-02-20 05:10:23,880 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:10:27,498 basehttp - "GET /aplicatie_exemplu HTTP/1.1" 301 0
+[INFO] 2025-02-20 05:10:27,506 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:13:38,061 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 05:13:38,999 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:13:39,979 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:13:40,526 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:13:40,748 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:13:40,901 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:13:41,910 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:13:44,325 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 05:13:45,001 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:13:45,424 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:20,894 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:21,655 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:21,857 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:22,002 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:22,155 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:22,293 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:22,437 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:22,558 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:22,735 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:22,872 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:30,161 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:30,611 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:38,455 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 05:15:39,073 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:15:39,459 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:44,506 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 05:15:45,075 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:15:45,333 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:15:48,481 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 05:15:48,988 autoreload - Watching for file changes with StatReloader
+[ERROR] 2025-02-20 05:15:49,444 log - Internal Server Error: /aplicatie_exemplu/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py", line 455, in home
+    return render(request, 'home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+[ERROR] 2025-02-20 05:15:49,444 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 500 80918
+[INFO] 2025-02-20 05:15:52,315 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 05:15:52,832 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:15:52,990 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:16:35,930 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:16:36,210 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:16:36,403 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:16:36,555 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:16:36,676 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:16:36,838 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:16:36,975 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:16:37,111 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:16:37,241 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[WARNING] 2025-02-20 05:16:40,318 log - Not Found: /aplicatie_exemplu/index
+[WARNING] 2025-02-20 05:16:40,318 basehttp - "GET /aplicatie_exemplu/index HTTP/1.1" 404 7327
+[INFO] 2025-02-20 05:16:44,325 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:16:46,532 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6843
+[INFO] 2025-02-20 05:16:48,880 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:16:53,268 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 14
+[INFO] 2025-02-20 05:17:25,903 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 05:17:26,574 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:17:26,932 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3572
+[INFO] 2025-02-20 05:17:28,788 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:17:35,944 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 64
+[INFO] 2025-02-20 05:17:36,031 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2320
+[INFO] 2025-02-20 05:17:47,495 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3567
+[INFO] 2025-02-20 05:17:49,757 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2320
+[INFO] 2025-02-20 05:17:50,855 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:17:50,863 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:17:55,060 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3572
+[INFO] 2025-02-20 05:17:57,664 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:21:29,250 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:21:33,674 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 64
+[INFO] 2025-02-20 05:21:33,880 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3275
+[WARNING] 2025-02-20 05:21:33,934 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:21:39,969 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3567
+[INFO] 2025-02-20 05:21:41,337 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3275
+[WARNING] 2025-02-20 05:21:41,395 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:22:22,854 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2320
+[INFO] 2025-02-20 05:22:34,601 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3275
+[WARNING] 2025-02-20 05:22:34,642 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:25:29,729 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 05:25:30,189 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:25:31,521 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3295
+[WARNING] 2025-02-20 05:25:31,565 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[WARNING] 2025-02-20 05:26:01,358 log - Forbidden (Permission denied): /admin/aplicatie_exemplu/customuser/18/change/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\admin\options.py", line 1964, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\admin\options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\admin\options.py", line 1847, in _changeform_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+[WARNING] 2025-02-20 05:26:01,359 basehttp - "GET /admin/aplicatie_exemplu/customuser/18/change/ HTTP/1.1" 403 1475
+[INFO] 2025-02-20 05:26:03,456 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3567
+[INFO] 2025-02-20 05:26:17,009 basehttp - "GET /admin/ HTTP/1.1" 200 4536
+[INFO] 2025-02-20 05:26:22,309 basehttp - "POST /admin/logout/ HTTP/1.1" 200 3561
+[INFO] 2025-02-20 05:26:24,111 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:26:24,129 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4166
+[INFO] 2025-02-20 05:26:26,634 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:26:26,808 basehttp - "GET /admin/ HTTP/1.1" 200 15053
+[INFO] 2025-02-20 05:26:26,918 basehttp - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[INFO] 2025-02-20 05:26:26,918 basehttp - "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[INFO] 2025-02-20 05:26:32,803 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3292
+[WARNING] 2025-02-20 05:26:32,842 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:26:40,534 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19323
+[INFO] 2025-02-20 05:26:40,757 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 05:26:44,208 basehttp - "GET /admin/aplicatie_exemplu/customuser/18/change/ HTTP/1.1" 200 30051
+[INFO] 2025-02-20 05:26:44,279 basehttp - "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[INFO] 2025-02-20 05:26:44,281 basehttp - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[INFO] 2025-02-20 05:26:44,281 basehttp - "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[INFO] 2025-02-20 05:26:44,329 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 05:26:44,378 basehttp - "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15502
+[INFO] 2025-02-20 05:26:44,378 basehttp - "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+[INFO] 2025-02-20 05:26:44,384 basehttp - "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[INFO] 2025-02-20 05:26:44,423 basehttp - "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[INFO] 2025-02-20 05:26:44,440 basehttp - "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[INFO] 2025-02-20 05:26:44,442 basehttp - "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[INFO] 2025-02-20 05:26:44,442 basehttp - "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[INFO] 2025-02-20 05:28:03,911 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 05:28:04,520 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:29:31,915 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\models.py changed, reloading.
+[INFO] 2025-02-20 05:29:32,386 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:29:47,925 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3293
+[WARNING] 2025-02-20 05:29:47,977 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:29:48,434 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3293
+[WARNING] 2025-02-20 05:29:48,473 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:29:48,602 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3293
+[WARNING] 2025-02-20 05:29:48,647 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:29:48,800 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3293
+[WARNING] 2025-02-20 05:29:48,851 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:29:49,799 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3566
+[INFO] 2025-02-20 05:29:51,047 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3293
+[WARNING] 2025-02-20 05:29:51,088 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:29:51,300 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3293
+[WARNING] 2025-02-20 05:29:51,343 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:29:51,512 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3293
+[WARNING] 2025-02-20 05:29:51,567 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:29:55,015 basehttp - "GET /aplicatie_exemplu/change-password/ HTTP/1.1" 200 3957
+[INFO] 2025-02-20 05:30:03,467 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:30:03,479 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:30:11,191 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3572
+[INFO] 2025-02-20 05:30:12,837 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3572
+[INFO] 2025-02-20 05:30:13,397 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3572
+[INFO] 2025-02-20 05:30:13,643 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3572
+[INFO] 2025-02-20 05:30:15,504 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[WARNING] 2025-02-20 05:30:18,060 log - Bad Request: /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 05:30:18,060 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 400 106
+[WARNING] 2025-02-20 05:30:19,962 log - Bad Request: /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 05:30:19,962 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 400 106
+[INFO] 2025-02-20 05:30:22,637 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 64
+[INFO] 2025-02-20 05:30:22,705 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3303
+[WARNING] 2025-02-20 05:30:22,763 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:31:05,218 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 05:31:05,767 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:31:06,674 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3279
+[WARNING] 2025-02-20 05:31:06,718 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:31:07,555 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3279
+[WARNING] 2025-02-20 05:31:07,597 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:31:07,832 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3279
+[WARNING] 2025-02-20 05:31:07,882 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:31:13,102 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 05:31:13,590 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:31:14,288 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3303
+[WARNING] 2025-02-20 05:31:14,331 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:31:15,046 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3303
+[WARNING] 2025-02-20 05:31:15,087 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:31:15,407 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3303
+[WARNING] 2025-02-20 05:31:15,450 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:31:54,992 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2953
+[INFO] 2025-02-20 05:33:03,841 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2953
+[WARNING] 2025-02-20 05:33:15,848 log - Not Found: /admins
+[WARNING] 2025-02-20 05:33:15,848 basehttp - "GET /admins HTTP/1.1" 404 2362
+[WARNING] 2025-02-20 05:33:21,255 log - Not Found: /admin/l
+[WARNING] 2025-02-20 05:33:21,256 basehttp - "GET /admin/l HTTP/1.1" 404 7580
+[INFO] 2025-02-20 05:33:24,151 basehttp - "GET /admin/ HTTP/1.1" 200 4536
+[INFO] 2025-02-20 05:33:26,137 basehttp - "POST /admin/logout/ HTTP/1.1" 200 3561
+[INFO] 2025-02-20 05:33:27,572 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:33:27,590 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4166
+[INFO] 2025-02-20 05:33:29,135 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:33:29,197 basehttp - "GET /admin/ HTTP/1.1" 200 15053
+[INFO] 2025-02-20 05:33:30,865 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19323
+[INFO] 2025-02-20 05:33:30,996 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 05:33:32,395 basehttp - "GET /admin/aplicatie_exemplu/customuser/18/change/ HTTP/1.1" 200 30051
+[INFO] 2025-02-20 05:33:32,515 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 05:33:46,378 basehttp - "POST /admin/aplicatie_exemplu/customuser/18/change/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:33:46,443 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19545
+[INFO] 2025-02-20 05:33:46,575 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 05:33:51,465 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2941
+[INFO] 2025-02-20 05:33:52,395 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2941
+[INFO] 2025-02-20 05:34:34,730 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 05:34:35,221 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:34:35,488 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2985
+[INFO] 2025-02-20 05:34:36,615 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2985
+[INFO] 2025-02-20 05:34:36,835 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2985
+[INFO] 2025-02-20 05:34:36,992 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2985
+[INFO] 2025-02-20 05:34:37,264 basehttp - - Broken pipe from ('127.0.0.1', 53903)
+[INFO] 2025-02-20 05:34:37,273 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2985
+[INFO] 2025-02-20 05:34:37,557 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2985
+[INFO] 2025-02-20 05:34:44,606 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 05:34:45,087 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:34:45,341 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2941
+[INFO] 2025-02-20 05:35:16,723 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 05:35:17,154 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:35:19,304 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 05:35:19,748 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:35:33,016 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 05:35:33,490 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:35:33,862 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2981
+[INFO] 2025-02-20 05:36:50,722 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2990
+[INFO] 2025-02-20 05:36:54,757 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2981
+[INFO] 2025-02-20 05:36:56,222 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2981
+[INFO] 2025-02-20 05:36:59,810 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 3267
+[WARNING] 2025-02-20 05:36:59,849 basehttp - "GET /static/default_avatar.png HTTP/1.1" 404 1868
+[INFO] 2025-02-20 05:37:05,874 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2981
+[INFO] 2025-02-20 05:37:55,076 basehttp - "GET /admin/aplicatie_exemplu/customuser/18/change/ HTTP/1.1" 200 30079
+[INFO] 2025-02-20 05:37:55,185 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 05:38:00,003 basehttp - "POST /admin/aplicatie_exemplu/customuser/18/change/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:38:00,072 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19545
+[INFO] 2025-02-20 05:38:00,176 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 05:38:03,172 basehttp - "GET /admin/aplicatie_exemplu/customuser/18/change/ HTTP/1.1" 200 30079
+[INFO] 2025-02-20 05:38:03,377 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 05:38:06,544 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:38:06,551 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 05:38:10,207 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 64
+[INFO] 2025-02-20 05:38:10,260 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2980
+[INFO] 2025-02-20 05:38:18,983 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3567
+[INFO] 2025-02-20 05:38:25,490 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3567
+[INFO] 2025-02-20 05:40:06,844 basehttp - "GET /aplicatie_exemplu/promotii/ HTTP/1.1" 200 4923
+[WARNING] 2025-02-20 05:41:18,089 log - Not Found: /aplicatie_exemplu/pagina_protejata/
+[WARNING] 2025-02-20 05:41:18,090 basehttp - "GET /aplicatie_exemplu/pagina_protejata/ HTTP/1.1" 404 7363
+[INFO] 2025-02-20 05:41:32,466 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3567
+[INFO] 2025-02-20 05:41:34,480 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2980
+[INFO] 2025-02-20 05:41:35,992 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:41:36,002 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[WARNING] 2025-02-20 05:41:41,066 log - Not Found: /aplicatie_exemplu/admin
+[WARNING] 2025-02-20 05:41:41,067 basehttp - "GET /aplicatie_exemplu/admin HTTP/1.1" 404 7327
+[INFO] 2025-02-20 05:41:51,632 basehttp - "GET /admin HTTP/1.1" 301 0
+[INFO] 2025-02-20 05:41:51,639 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:41:51,670 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4166
+[INFO] 2025-02-20 05:41:54,773 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:41:54,966 basehttp - "GET /admin/ HTTP/1.1" 200 15128
+[WARNING] 2025-02-20 05:42:10,127 log - Not Found: /aplicatie_exemplu/pagina_protejata/
+[WARNING] 2025-02-20 05:42:10,128 basehttp - "GET /aplicatie_exemplu/pagina_protejata/ HTTP/1.1" 404 7363
+[INFO] 2025-02-20 05:42:29,377 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 285
+[INFO] 2025-02-20 05:46:14,436 basehttp - "GET /admin/ HTTP/1.1" 200 15128
+[INFO] 2025-02-20 05:46:15,492 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 05:46:15,659 basehttp - "GET /admin/ HTTP/1.1" 200 15128
+[INFO] 2025-02-20 05:46:19,257 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 2105
+[WARNING] 2025-02-20 05:46:22,873 log - Not Found: /aplicatie_exemplu/lista_produse/
+[WARNING] 2025-02-20 05:46:22,874 basehttp - "GET /aplicatie_exemplu/lista_produse/ HTTP/1.1" 404 7354
+[WARNING] 2025-02-20 05:46:30,654 log - Not Found: /aplicatie_exemplu/lista_produse/
+[WARNING] 2025-02-20 05:46:30,655 basehttp - "GET /aplicatie_exemplu/lista_produse/ HTTP/1.1" 404 7354
+[WARNING] 2025-02-20 05:46:55,659 log - Not Found: /aplicatie_exemplu/lista_produse
+[WARNING] 2025-02-20 05:46:55,660 basehttp - "GET /aplicatie_exemplu/lista_produse HTTP/1.1" 404 7351
+[INFO] 2025-02-20 05:47:01,174 basehttp - "GET /aplicatie_exemplu/produse HTTP/1.1" 301 0
+[INFO] 2025-02-20 05:47:01,352 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 1403
+[INFO] 2025-02-20 05:47:24,455 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 2099
+[INFO] 2025-02-20 05:47:24,737 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 2099
+[INFO] 2025-02-20 05:47:25,296 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 1403
+[INFO] 2025-02-20 05:47:27,383 basehttp - "GET /aplicatie_exemplu/promotii/ HTTP/1.1" 200 4923
+[WARNING] 2025-02-20 05:47:29,357 log - Not Found: /aplicatie_exemplu/lista_promotii/
+[WARNING] 2025-02-20 05:47:29,359 basehttp - "GET /aplicatie_exemplu/lista_promotii/ HTTP/1.1" 404 7357
+[INFO] 2025-02-20 05:47:46,971 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 2099
+[INFO] 2025-02-20 05:47:48,049 basehttp - "GET /aplicatie_exemplu/lista-promotii/ HTTP/1.1" 200 1755
+[INFO] 2025-02-20 05:47:50,273 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 1403
+[INFO] 2025-02-20 05:50:35,789 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\models.py changed, reloading.
+[INFO] 2025-02-20 05:50:36,367 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:50:41,685 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\models.py changed, reloading.
+[INFO] 2025-02-20 05:50:42,303 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:57:56,467 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 05:57:59,948 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:03,240 basehttp - "POST /aplicatie_exemplu/claim_offer/ HTTP/1.1" 200 61
+[INFO] 2025-02-20 05:58:07,070 basehttp - "POST /aplicatie_exemplu/claim_offer/ HTTP/1.1" 200 61
+[INFO] 2025-02-20 05:58:14,969 basehttp - "POST /aplicatie_exemplu/claim_offer/ HTTP/1.1" 200 61
+[INFO] 2025-02-20 05:58:17,650 basehttp - "POST /aplicatie_exemplu/claim_offer/ HTTP/1.1" 200 61
+[INFO] 2025-02-20 05:58:19,402 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:20,005 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:20,415 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:20,616 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:20,783 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:20,962 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:21,112 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:21,262 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:21,406 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:21,661 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:42,265 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:42,991 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:43,284 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:43,441 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:43,619 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:43,812 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:44,003 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:44,196 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:44,389 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:48,156 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:48,335 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:48,495 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:58:48,653 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3272
+[INFO] 2025-02-20 05:59:53,513 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 05:59:53,973 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 06:02:39,974 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3964
+[INFO] 2025-02-20 06:02:40,651 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3964
+[INFO] 2025-02-20 06:02:40,878 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3964
+[INFO] 2025-02-20 06:02:41,557 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3964
+[INFO] 2025-02-20 06:02:42,128 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3964
+[INFO] 2025-02-20 06:02:43,720 basehttp - "POST /aplicatie_exemplu/claim_offer/ HTTP/1.1" 200 17
+[INFO] 2025-02-20 06:02:43,773 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 285
+[INFO] 2025-02-20 06:02:47,628 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3964
+[INFO] 2025-02-20 06:02:51,213 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 285
+[INFO] 2025-02-20 06:02:53,697 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3964
+[INFO] 2025-02-20 06:02:54,302 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3964
+[INFO] 2025-02-20 06:02:54,548 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3964
+[INFO] 2025-02-20 06:05:14,770 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:05:15,513 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:05:16,148 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:05:16,833 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:05:17,424 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:05:17,860 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:05:20,582 basehttp - "POST /aplicatie_exemplu/claim_offer/ HTTP/1.1" 200 17
+[INFO] 2025-02-20 06:05:20,754 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 285
+[INFO] 2025-02-20 06:06:48,231 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1974
+[INFO] 2025-02-20 06:06:49,024 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1974
+[INFO] 2025-02-20 06:06:52,122 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:11:49,842 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 06:11:50,379 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 06:11:57,796 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 06:11:58,277 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 06:11:59,148 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1995
+[INFO] 2025-02-20 06:12:00,200 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1995
+[INFO] 2025-02-20 06:12:01,701 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:12:02,719 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:12:03,211 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:12:05,109 basehttp - "POST /aplicatie_exemplu/claim_offer/ HTTP/1.1" 200 17
+[INFO] 2025-02-20 06:12:05,189 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1995
+[INFO] 2025-02-20 06:12:07,067 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1995
+[INFO] 2025-02-20 06:12:08,490 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1995
+[INFO] 2025-02-20 06:13:57,094 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 06:13:57,703 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 06:14:30,253 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1481
+[INFO] 2025-02-20 06:14:32,329 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 06:14:33,242 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1481
+[INFO] 2025-02-20 06:14:33,751 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 06:14:34,209 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 06:14:34,794 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 06:14:35,190 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1481
+[INFO] 2025-02-20 06:14:35,730 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1481
+[INFO] 2025-02-20 06:14:36,211 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 06:14:36,652 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 06:14:36,782 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1481
+[INFO] 2025-02-20 06:14:36,961 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 06:14:37,153 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1481
+[INFO] 2025-02-20 06:14:37,438 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 06:14:37,565 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1481
+[INFO] 2025-02-20 06:14:37,823 basehttp - - Broken pipe from ('127.0.0.1', 54367)
+[INFO] 2025-02-20 06:14:37,950 basehttp - - Broken pipe from ('127.0.0.1', 54385)
+[INFO] 2025-02-20 06:14:37,969 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 06:14:39,661 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:14:40,245 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:14:41,073 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:14:41,707 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3958
+[INFO] 2025-02-20 06:14:44,695 basehttp - "POST /aplicatie_exemplu/claim_offer/ HTTP/1.1" 200 17
+[INFO] 2025-02-20 06:14:44,749 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 06:15:11,984 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3954
+[INFO] 2025-02-20 06:15:12,962 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3954
+[INFO] 2025-02-20 06:16:53,041 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4173
+[INFO] 2025-02-20 06:16:53,587 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4173
+[INFO] 2025-02-20 06:16:54,470 basehttp - "POST /aplicatie_exemplu/claim_offer/ HTTP/1.1" 200 17
+[INFO] 2025-02-20 06:16:54,524 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 06:17:04,948 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3954
+[INFO] 2025-02-20 06:17:06,149 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3954
+[INFO] 2025-02-20 06:17:07,885 basehttp - "POST /aplicatie_exemplu/claim_offer/ HTTP/1.1" 200 17
+[INFO] 2025-02-20 06:17:07,942 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 06:17:10,934 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 1403
+[WARNING] 2025-02-20 06:17:42,294 log - Not Found: /aplicatie_exemplu/profil
+[WARNING] 2025-02-20 06:17:42,295 basehttp - "GET /aplicatie_exemplu/profil HTTP/1.1" 404 7330
+[WARNING] 2025-02-20 06:17:45,306 log - Not Found: /aplicatie_exemplu/profil
+[WARNING] 2025-02-20 06:17:45,306 basehttp - "GET /aplicatie_exemplu/profil HTTP/1.1" 404 7330
+[INFO] 2025-02-20 06:17:53,213 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 1403
+[INFO] 2025-02-20 06:17:54,910 basehttp - "GET /aplicatie_exemplu/promotii/ HTTP/1.1" 200 4923
+[WARNING] 2025-02-20 06:17:56,794 log - Not Found: /aplicatie_exemplu/profil
+[WARNING] 2025-02-20 06:17:56,794 basehttp - "GET /aplicatie_exemplu/profil HTTP/1.1" 404 7330
+[INFO] 2025-02-20 06:18:30,418 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3955
+[INFO] 2025-02-20 06:18:30,719 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3955
+[INFO] 2025-02-20 06:18:31,615 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2981
+[INFO] 2025-02-20 06:18:33,663 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 06:18:33,673 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 06:18:36,812 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 64
+[INFO] 2025-02-20 06:18:36,965 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2980
+[INFO] 2025-02-20 06:18:38,691 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3956
+[INFO] 2025-02-20 06:18:43,133 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2980
+[INFO] 2025-02-20 06:18:46,628 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 06:18:46,635 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 06:18:47,869 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6843
+[INFO] 2025-02-20 06:18:59,662 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 155
+[INFO] 2025-02-20 06:21:14,807 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\settings.py changed, reloading.
+[INFO] 2025-02-20 06:21:15,401 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 06:21:33,891 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\settings.py changed, reloading.
+[INFO] 2025-02-20 06:21:34,394 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 06:21:35,873 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6853
+[INFO] 2025-02-20 06:21:44,920 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 291
+[INFO] 2025-02-20 06:22:05,724 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 94
+[INFO] 2025-02-20 06:22:17,087 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 94
+[INFO] 2025-02-20 06:23:45,723 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 94
+[INFO] 2025-02-20 06:27:20,532 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\settings.py changed, reloading.
+[INFO] 2025-02-20 06:27:20,981 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 06:27:22,996 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6853
+[INFO] 2025-02-20 06:27:43,044 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 94
+[INFO] 2025-02-20 06:27:52,560 views - Utilizator nou înregistrat: maryo13, email: mario.alexandru79@yahoo.com
+[INFO] 2025-02-20 06:27:55,233 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 140
+[INFO] 2025-02-20 06:27:57,813 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 06:35:34,768 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 7696
+[INFO] 2025-02-20 06:35:51,480 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 247
+[INFO] 2025-02-20 06:36:00,889 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 247
+[INFO] 2025-02-20 06:36:07,092 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 171
+[INFO] 2025-02-20 06:36:15,768 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 94
+[INFO] 2025-02-20 06:36:31,915 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 94
+[INFO] 2025-02-20 06:43:13,484 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\forms.py changed, reloading.
+[INFO] 2025-02-20 06:43:13,969 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 06:43:15,041 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 7770
+[INFO] 2025-02-20 06:43:34,057 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 06:43:40,072 views - Utilizator nou înregistrat: maryo3, email: mario.alexandru79@yahoo.com
+[INFO] 2025-02-20 06:43:41,932 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 140
+[INFO] 2025-02-20 06:43:43,783 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 06:44:21,645 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3511
+[INFO] 2025-02-20 06:44:24,153 basehttp - "GET /aplicatie_exemplu/login HTTP/1.1" 301 0
+[INFO] 2025-02-20 06:44:24,160 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[WARNING] 2025-02-20 06:44:26,277 log - Bad Request: /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 06:44:26,277 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 400 106
+[INFO] 2025-02-20 06:44:29,807 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 64
+[INFO] 2025-02-20 06:44:29,859 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2980
+[INFO] 2025-02-20 06:44:32,418 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3956
+[INFO] 2025-02-20 06:44:35,196 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3956
+[INFO] 2025-02-20 06:44:50,219 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 1403
+[INFO] 2025-02-20 06:46:02,840 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3082
+[INFO] 2025-02-20 06:46:05,553 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3956
+[INFO] 2025-02-20 06:46:07,023 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3082
+[WARNING] 2025-02-20 06:46:17,550 log - Not Found: /aplicatie_exemplu/filter_products/
+[WARNING] 2025-02-20 06:46:17,551 basehttp - "GET /aplicatie_exemplu/filter_products/ HTTP/1.1" 404 7360
+[INFO] 2025-02-20 06:46:24,236 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 4219
+[INFO] 2025-02-20 06:49:10,894 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 06:49:11,844 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 4219
+[INFO] 2025-02-20 06:49:14,834 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 4219
+[WARNING] 2025-02-20 06:51:10,469 log - Forbidden: /aplicatie_exemplu/add-product/
+[WARNING] 2025-02-20 06:51:10,470 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 403 1470
+[WARNING] 2025-02-20 06:53:38,178 log - Forbidden: /aplicatie_exemplu/add-product/
+[WARNING] 2025-02-20 06:53:38,179 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 403 1470
+[INFO] 2025-02-20 06:53:39,870 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 6724
+[WARNING] 2025-02-20 06:54:50,220 log - Not Found: /aplicatie_exemplu/lista_produse/
+[WARNING] 2025-02-20 06:54:50,221 basehttp - "GET /aplicatie_exemplu/lista_produse/ HTTP/1.1" 404 7354
+[INFO] 2025-02-20 06:55:12,574 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 06:55:14,614 basehttp - "GET /aplicatie_exemplu/produs/Ceva/ HTTP/1.1" 200 306
+[INFO] 2025-02-20 06:56:50,662 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 6724
+[WARNING] 2025-02-20 06:57:04,345 log - Not Found: /aplicatie_exemplu/lista_produse/
+[WARNING] 2025-02-20 06:57:04,345 basehttp - "GET /aplicatie_exemplu/lista_produse/ HTTP/1.1" 404 7354
+[INFO] 2025-02-20 06:57:10,731 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 06:57:56,046 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4052
+[INFO] 2025-02-20 06:57:57,180 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4052
+[WARNING] 2025-02-20 06:57:57,859 log - Forbidden: /aplicatie_exemplu/add-product/
+[WARNING] 2025-02-20 06:57:57,859 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 403 1470
+[INFO] 2025-02-20 06:57:59,588 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4052
+[INFO] 2025-02-20 06:58:07,103 basehttp - "GET /admin/ HTTP/1.1" 200 4550
+[INFO] 2025-02-20 06:58:09,932 basehttp - "POST /admin/logout/ HTTP/1.1" 200 3571
+[INFO] 2025-02-20 06:58:11,668 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 06:58:11,686 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+[INFO] 2025-02-20 06:58:13,496 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 06:58:13,653 basehttp - "GET /admin/ HTTP/1.1" 200 15205
+[INFO] 2025-02-20 06:58:23,776 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 06:58:31,473 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 06:58:33,732 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 3115
+[WARNING] 2025-02-20 06:58:36,974 log - Not Found: /aplicatie_exemplu/lista_promotii/
+[WARNING] 2025-02-20 06:58:36,975 basehttp - "GET /aplicatie_exemplu/lista_promotii/ HTTP/1.1" 404 7357
+[INFO] 2025-02-20 06:58:41,050 basehttp - "GET /aplicatie_exemplu/promotii/ HTTP/1.1" 200 4923
+[WARNING] 2025-02-20 06:58:43,753 log - Not Found: /aplicatie_exemplu/lista_promotii/
+[WARNING] 2025-02-20 06:58:43,753 basehttp - "GET /aplicatie_exemplu/lista_promotii/ HTTP/1.1" 404 7357
+[WARNING] 2025-02-20 06:59:04,226 log - Not Found: /aplicatie_exemplu/lista_promotii/
+[WARNING] 2025-02-20 06:59:04,227 basehttp - "GET /aplicatie_exemplu/lista_promotii/ HTTP/1.1" 404 7357
+[WARNING] 2025-02-20 06:59:06,033 log - Not Found: /aplicatie_exemplu/lista_promotii/
+[WARNING] 2025-02-20 06:59:06,033 basehttp - "GET /aplicatie_exemplu/lista_promotii/ HTTP/1.1" 404 7357
+[WARNING] 2025-02-20 06:59:06,216 log - Not Found: /aplicatie_exemplu/lista_promotii/
+[WARNING] 2025-02-20 06:59:06,217 basehttp - "GET /aplicatie_exemplu/lista_promotii/ HTTP/1.1" 404 7357
+[INFO] 2025-02-20 06:59:08,123 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 06:59:08,936 basehttp - "GET /aplicatie_exemplu/lista-promotii/ HTTP/1.1" 200 1750
+[INFO] 2025-02-20 06:59:11,406 basehttp - "GET /aplicatie_exemplu/promotii/ HTTP/1.1" 200 4923
+[INFO] 2025-02-20 06:59:13,756 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 3115
+[INFO] 2025-02-20 06:59:16,227 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 06:59:29,558 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 06:59:31,675 basehttp - "GET /aplicatie_exemplu/produs/test%202/ HTTP/1.1" 200 309
+[INFO] 2025-02-20 06:59:34,028 basehttp - "GET /aplicatie_exemplu/produs/Ceva/ HTTP/1.1" 200 306
+[INFO] 2025-02-20 06:59:36,185 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 6724
+[INFO] 2025-02-20 06:59:39,629 basehttp - "GET /aplicatie_exemplu/filter-products/?name=t&category=&min_price=&max_price=&min_stock=&max_stock= HTTP/1.1" 200 283
+[INFO] 2025-02-20 06:59:39,708 basehttp - "GET /aplicatie_exemplu/filter-products/?name=te&category=&min_price=&max_price=&min_stock=&max_stock= HTTP/1.1" 200 283
+[INFO] 2025-02-20 06:59:39,922 basehttp - "GET /aplicatie_exemplu/filter-products/?name=tes&category=&min_price=&max_price=&min_stock=&max_stock= HTTP/1.1" 200 183
+[INFO] 2025-02-20 06:59:40,037 basehttp - "GET /aplicatie_exemplu/filter-products/?name=test&category=&min_price=&max_price=&min_stock=&max_stock= HTTP/1.1" 200 183
+[INFO] 2025-02-20 06:59:41,604 basehttp - "GET /aplicatie_exemplu/filter-products/?name=test+&category=&min_price=&max_price=&min_stock=&max_stock= HTTP/1.1" 200 183
+[INFO] 2025-02-20 06:59:41,605 basehttp - "GET /aplicatie_exemplu/filter-products/?name=test+2&category=&min_price=&max_price=&min_stock=&max_stock= HTTP/1.1" 200 99
+[INFO] 2025-02-20 06:59:42,636 basehttp - "GET /aplicatie_exemplu/filter-products/?name=test+&category=&min_price=&max_price=&min_stock=&max_stock= HTTP/1.1" 200 183
+[INFO] 2025-02-20 06:59:44,228 basehttp - "GET /aplicatie_exemplu/filter-products/?name=test+&category=&min_price=&max_price=&min_stock=&max_stock= HTTP/1.1" 200 183
+[INFO] 2025-02-20 06:59:46,718 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock= HTTP/1.1" 200 367
+[INFO] 2025-02-20 06:59:48,810 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock= HTTP/1.1" 200 367
+[WARNING] 2025-02-20 06:59:48,839 log - Not Found: /aplicatie_exemplu/lista_produse/
+[WARNING] 2025-02-20 06:59:48,840 basehttp - "GET /aplicatie_exemplu/lista_produse/ HTTP/1.1" 404 7354
+[INFO] 2025-02-20 06:59:53,452 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 06:59:54,863 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 06:59:55,035 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 06:59:55,454 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 06:59:55,996 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 06:59:56,194 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 06:59:56,366 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 06:59:57,808 basehttp - "POST /aplicatie_exemplu/claim_offer/ HTTP/1.1" 200 17
+[INFO] 2025-02-20 06:59:57,862 basehttp - "GET /aplicatie_exemplu/oferta/ HTTP/1.1" 200 1482
+[INFO] 2025-02-20 07:01:08,177 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 3115
+[INFO] 2025-02-20 07:01:09,933 basehttp - "GET /aplicatie_exemplu/lista-promotii/ HTTP/1.1" 200 1750
+[INFO] 2025-02-20 07:01:12,505 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 07:01:35,066 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 07:01:36,126 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 07:01:37,233 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 7321
+[INFO] 2025-02-20 07:01:38,612 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 07:01:40,969 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 7321
+[INFO] 2025-02-20 07:01:42,620 basehttp - "GET /aplicatie_exemplu/produs/test3/ HTTP/1.1" 200 306
+[INFO] 2025-02-20 07:01:44,299 basehttp - "GET /aplicatie_exemplu/produs/test%202/ HTTP/1.1" 200 309
+[INFO] 2025-02-20 07:03:51,091 basehttp - "GET /aplicatie_exemplu/produs/Botea%20Maryo-Alexandru/ HTTP/1.1" 200 2056
+[INFO] 2025-02-20 07:03:53,220 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 07:03:56,704 basehttp - "GET /aplicatie_exemplu/produs/test3/ HTTP/1.1" 200 2023
+[INFO] 2025-02-20 07:03:57,834 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 07:03:58,742 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 7321
+[INFO] 2025-02-20 07:04:00,986 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 07:04:01,822 basehttp - "GET /aplicatie_exemplu/produs/test3/ HTTP/1.1" 200 2023
+[INFO] 2025-02-20 07:04:02,937 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 07:04:03,791 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 7321
+[INFO] 2025-02-20 07:04:06,361 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock=2 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:06,480 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock=21 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:06,527 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock=213 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:07,104 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock=2133 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:07,533 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock=213342 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:07,535 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock=21334 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:07,640 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock=2133421 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:07,858 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock=2133421 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:08,141 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=3&min_stock=&max_stock=2133421 HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:08,235 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=32&min_stock=&max_stock=2133421 HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:08,318 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=321&min_stock=&max_stock=2133421 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:10,532 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=321&min_stock=&max_stock=2133421 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:10,618 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 07:04:30,455 basehttp - "GET /aplicatie_exemplu/produs/test3/ HTTP/1.1" 200 2023
+[INFO] 2025-02-20 07:04:31,392 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 07:04:32,843 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 7231
+[INFO] 2025-02-20 07:04:34,048 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock=1 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:34,193 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock=12 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:34,300 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock=123 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:34,650 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=&max_stock=123 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:34,982 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=3&max_price=&min_stock=&max_stock=123 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:35,150 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=32&max_price=&min_stock=&max_stock=123 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:35,306 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=321&max_price=&min_stock=&max_stock=123 HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:36,138 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=321&max_price=&min_stock=&max_stock=123 HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:36,288 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=321&max_price=4&min_stock=&max_stock=123 HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:36,398 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=321&max_price=42&min_stock=&max_stock=123 HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:36,596 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=321&max_price=421&min_stock=&max_stock=123 HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:36,845 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=321&max_price=421&min_stock=&max_stock=123 HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:37,734 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=321&max_price=421&min_stock=&max_stock=123 HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:37,772 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=321&max_price=421&min_stock=&max_stock=123 HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:38,966 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=&max_stock=123 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:39,405 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=&max_stock=123 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:39,859 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=&max_stock=1 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:40,377 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=&max_stock=12 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:40,766 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=&max_stock=123 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:42,200 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=&max_stock=12 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:42,225 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=&max_stock=1 HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:42,447 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=&max_stock= HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:44,006 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=&max_stock= HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:44,389 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=2&max_stock= HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:45,208 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=&max_stock= HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:45,481 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=11&max_stock= HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:45,516 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=1&max_stock= HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:46,489 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=421&min_stock=11&max_stock= HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:46,763 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=2&min_stock=11&max_stock= HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:47,877 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=&min_stock=11&max_stock= HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:49,253 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=2&min_stock=11&max_stock= HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:49,353 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=23&min_stock=11&max_stock= HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:50,867 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=23&min_stock=11&max_stock= HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:51,320 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=23&min_stock=1&max_stock= HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:52,287 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=1&min_price=1&max_price=23&min_stock=1&max_stock= HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:04:54,537 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 07:04:56,061 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 7231
+[INFO] 2025-02-20 07:04:57,139 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=1&max_stock= HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:04:58,074 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=&min_stock=1&max_stock= HTTP/1.1" 200 367
+[INFO] 2025-02-20 07:05:00,685 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=1&min_stock=1&max_stock= HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:05:00,934 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=10&min_stock=1&max_stock= HTTP/1.1" 200 16
+[INFO] 2025-02-20 07:05:01,100 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=100&min_stock=1&max_stock= HTTP/1.1" 200 283
+[INFO] 2025-02-20 07:05:01,858 basehttp - "GET /aplicatie_exemplu/filter-products/?name=&category=&min_price=&max_price=100&min_stock=1&max_stock= HTTP/1.1" 200 283
+[INFO] 2025-02-20 07:31:24,014 basehttp - "GET /aplicatie_exemplu/filter-products/ HTTP/1.1" 200 7231
+[INFO] 2025-02-20 07:31:25,752 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3366
+[INFO] 2025-02-20 07:31:27,086 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 07:31:29,452 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 4134
+[INFO] 2025-02-20 07:31:36,621 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 07:31:37,726 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 3115
+[INFO] 2025-02-20 07:32:22,143 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 4134
+[INFO] 2025-02-20 07:32:37,205 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 3267
+[INFO] 2025-02-20 07:34:53,125 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 2104
+[INFO] 2025-02-20 07:35:38,257 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 2104
+[INFO] 2025-02-20 07:35:39,836 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4051
+[INFO] 2025-02-20 07:35:40,401 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5308
+[INFO] 2025-02-20 07:40:10,812 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4461
+[INFO] 2025-02-20 07:40:12,221 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 2104
+[INFO] 2025-02-20 07:40:25,210 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 2550
+[INFO] 2025-02-20 07:40:38,649 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4461
+[INFO] 2025-02-20 07:40:39,279 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5308
+[INFO] 2025-02-20 07:40:44,248 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 2104
+[INFO] 2025-02-20 07:41:55,034 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5249
+[INFO] 2025-02-20 07:42:17,814 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5508
+[INFO] 2025-02-20 07:42:49,521 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5508
+[INFO] 2025-02-20 07:43:03,049 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:43:15,085 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:43:28,291 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:43:31,973 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:43:36,467 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:43:47,397 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:44:15,380 basehttp - "GET /admin/ HTTP/1.1" 200 15205
+[INFO] 2025-02-20 07:44:19,765 basehttp - "GET /admin/aplicatie_exemplu/product/ HTTP/1.1" 200 16367
+[INFO] 2025-02-20 07:44:19,928 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 7320
+[INFO] 2025-02-20 07:44:35,588 basehttp - "POST /aplicatie_exemplu/add-product/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 07:44:35,671 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:44:44,163 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:44:48,907 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:44:52,170 basehttp - "GET /admin/aplicatie_exemplu/product/ HTTP/1.1" 200 16751
+[INFO] 2025-02-20 07:44:52,267 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 7320
+[INFO] 2025-02-20 07:45:04,088 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:45:08,357 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:45:13,125 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:45:15,271 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:45:15,433 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:45:15,587 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:45:15,740 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:46:14,052 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:46:20,063 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:46:23,545 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 4031
+[INFO] 2025-02-20 07:46:35,539 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 4030
+[INFO] 2025-02-20 07:46:41,401 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 4030
+[INFO] 2025-02-20 07:46:46,623 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 4030
+[INFO] 2025-02-20 07:47:08,429 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 4030
+[INFO] 2025-02-20 07:47:32,894 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 4082
+[INFO] 2025-02-20 07:47:57,137 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 4142
+[INFO] 2025-02-20 07:48:25,911 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 4142
+[INFO] 2025-02-20 07:49:10,090 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 4142
+[INFO] 2025-02-20 07:50:26,369 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2735
+[INFO] 2025-02-20 07:53:07,346 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 7284
+[INFO] 2025-02-20 07:53:11,596 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 7284
+[INFO] 2025-02-20 07:53:43,965 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 7299
+[INFO] 2025-02-20 07:53:45,300 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 7299
+[INFO] 2025-02-20 07:54:09,375 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 7284
+[INFO] 2025-02-20 07:54:57,363 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2735
+[INFO] 2025-02-20 07:55:03,883 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2569
+[INFO] 2025-02-20 07:55:06,118 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2569
+[INFO] 2025-02-20 07:55:06,599 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2569
+[INFO] 2025-02-20 07:55:09,279 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2458
+[INFO] 2025-02-20 07:55:20,796 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2472
+[INFO] 2025-02-20 07:55:25,343 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2357
+[INFO] 2025-02-20 07:55:26,829 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2357
+[INFO] 2025-02-20 07:55:27,580 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2357
+[INFO] 2025-02-20 07:55:27,972 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2357
+[INFO] 2025-02-20 07:55:28,337 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2357
+[ERROR] 2025-02-20 07:55:34,526 log - Internal Server Error: /aplicatie_exemplu/contact/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py", line 84, in contact_view
+    return render(request, 'contact_success.html')  # Pagina de succes
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: contact_success.html
+[ERROR] 2025-02-20 07:55:34,526 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 500 84780
+[INFO] 2025-02-20 07:57:09,985 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 2104
+[INFO] 2025-02-20 07:57:11,916 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4461
+[INFO] 2025-02-20 07:57:12,556 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 2104
+[INFO] 2025-02-20 07:57:14,606 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3559
+[INFO] 2025-02-20 07:57:19,577 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:57:37,913 basehttp - "POST /aplicatie_exemplu/add-product/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 07:57:37,978 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 07:59:05,793 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\forms.py changed, reloading.
+[INFO] 2025-02-20 07:59:06,661 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:00:13,876 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\forms.py changed, reloading.
+[INFO] 2025-02-20 08:00:14,412 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:00:16,808 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\forms.py changed, reloading.
+[INFO] 2025-02-20 08:00:17,336 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:00:23,079 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 2104
+[INFO] 2025-02-20 08:00:36,919 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2361
+[INFO] 2025-02-20 08:00:43,987 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2366
+[INFO] 2025-02-20 08:00:53,346 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2400
+[INFO] 2025-02-20 08:01:00,627 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2367
+[INFO] 2025-02-20 08:01:10,509 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 2369
+[INFO] 2025-02-20 08:04:45,945 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 5456
+[INFO] 2025-02-20 08:04:50,081 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 5456
+[INFO] 2025-02-20 08:04:56,149 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 5454
+[ERROR] 2025-02-20 08:05:00,190 log - Internal Server Error: /aplicatie_exemplu/contact/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py", line 84, in contact_view
+    return render(request, 'contact_success.html')  # Pagina de succes
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: contact_success.html
+[ERROR] 2025-02-20 08:05:00,190 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 500 84794
+[INFO] 2025-02-20 08:05:19,226 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 5454
+[INFO] 2025-02-20 08:05:24,430 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 5454
+[INFO] 2025-02-20 08:05:31,664 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 5454
+[INFO] 2025-02-20 08:05:41,022 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 5453
+[INFO] 2025-02-20 08:05:47,076 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 5453
+[INFO] 2025-02-20 08:06:08,242 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 5483
+[INFO] 2025-02-20 08:06:20,373 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 5565
+[INFO] 2025-02-20 08:06:27,689 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 5492
+[INFO] 2025-02-20 08:06:36,313 basehttp - "POST /aplicatie_exemplu/contact/ HTTP/1.1" 200 5492
+[INFO] 2025-02-20 08:06:43,173 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 5190
+[INFO] 2025-02-20 08:06:44,655 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 5190
+[INFO] 2025-02-20 08:06:47,511 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 08:06:49,439 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2981
+[INFO] 2025-02-20 08:06:50,781 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:06:50,789 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 08:06:53,970 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 64
+[INFO] 2025-02-20 08:06:54,028 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2980
+[INFO] 2025-02-20 08:07:00,658 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4462
+[WARNING] 2025-02-20 08:07:01,653 log - Forbidden: /aplicatie_exemplu/add-product/
+[WARNING] 2025-02-20 08:07:01,653 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 403 1470
+[INFO] 2025-02-20 08:07:02,922 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4462
+[INFO] 2025-02-20 08:07:03,713 basehttp - "GET /aplicatie_exemplu/promotii/ HTTP/1.1" 200 4923
+[INFO] 2025-02-20 08:07:06,216 basehttp - "GET /aplicatie_exemplu/lista-promotii/ HTTP/1.1" 200 1750
+[INFO] 2025-02-20 08:11:09,628 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\signals.py changed, reloading.
+[INFO] 2025-02-20 08:11:10,468 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:11:12,807 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\signals.py changed, reloading.
+[INFO] 2025-02-20 08:11:13,464 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:11:26,953 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\signals.py changed, reloading.
+[INFO] 2025-02-20 08:11:27,522 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:11:46,338 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\apps.py changed, reloading.
+[INFO] 2025-02-20 08:11:46,954 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:12:17,799 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4462
+[WARNING] 2025-02-20 08:12:18,469 log - Forbidden: /aplicatie_exemplu/add-product/
+[WARNING] 2025-02-20 08:12:18,469 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 403 1470
+[INFO] 2025-02-20 08:12:20,115 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4462
+[INFO] 2025-02-20 08:12:23,642 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4462
+[WARNING] 2025-02-20 08:12:26,378 log - Forbidden: /aplicatie_exemplu/add-product/
+[WARNING] 2025-02-20 08:12:26,386 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 403 1470
+[INFO] 2025-02-20 08:12:27,305 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4462
+[INFO] 2025-02-20 08:12:32,973 basehttp - "GET /admin/ HTTP/1.1" 200 4550
+[INFO] 2025-02-20 08:12:35,221 basehttp - "POST /admin/logout/ HTTP/1.1" 200 3571
+[INFO] 2025-02-20 08:12:36,951 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:12:36,983 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+[INFO] 2025-02-20 08:12:40,958 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:12:41,023 basehttp - "GET /admin/ HTTP/1.1" 200 15205
+[INFO] 2025-02-20 08:12:43,262 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 21116
+[INFO] 2025-02-20 08:12:43,422 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 7320
+[INFO] 2025-02-20 08:12:45,862 basehttp - "POST /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:12:45,936 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 21252
+[INFO] 2025-02-20 08:12:46,049 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 7320
+[INFO] 2025-02-20 08:12:48,194 basehttp - "POST /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:12:48,268 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 21260
+[INFO] 2025-02-20 08:12:48,374 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 7320
+[INFO] 2025-02-20 08:12:51,065 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 21116
+[INFO] 2025-02-20 08:12:51,350 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 21116
+[INFO] 2025-02-20 08:12:52,133 basehttp - "POST /admin/logout/ HTTP/1.1" 200 3571
+[INFO] 2025-02-20 08:12:53,306 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:12:53,314 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+[INFO] 2025-02-20 08:12:55,958 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:12:56,031 basehttp - "GET /admin/ HTTP/1.1" 200 4550
+[WARNING] 2025-02-20 08:12:59,170 log - Not Found: /
+[WARNING] 2025-02-20 08:12:59,170 basehttp - "GET / HTTP/1.1" 404 2326
+[INFO] 2025-02-20 08:13:03,055 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:13:03,131 basehttp - "GET /admin/ HTTP/1.1" 200 4550
+[WARNING] 2025-02-20 08:13:04,463 log - Forbidden (Permission denied): /admin/aplicatie_exemplu/customuser/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\admin\options.py", line 1998, in changelist_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+[WARNING] 2025-02-20 08:13:04,471 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 403 1475
+[INFO] 2025-02-20 08:13:05,096 basehttp - "GET /admin/ HTTP/1.1" 200 4550
+[INFO] 2025-02-20 08:13:05,853 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:13:05,919 basehttp - "GET /admin/ HTTP/1.1" 200 4550
+[INFO] 2025-02-20 08:13:06,898 basehttp - "GET /admin/ HTTP/1.1" 200 4550
+[INFO] 2025-02-20 08:13:07,443 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4462
+[WARNING] 2025-02-20 08:13:08,927 log - Forbidden: /aplicatie_exemplu/add-product/
+[WARNING] 2025-02-20 08:13:08,927 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 403 1470
+[WARNING] 2025-02-20 08:13:28,034 log - Forbidden: /aplicatie_exemplu/add-product/
+[WARNING] 2025-02-20 08:13:29,162 log - Forbidden: /aplicatie_exemplu/add-product/
+[WARNING] 2025-02-20 08:13:30,477 log - Forbidden: /aplicatie_exemplu/add-product/
+[INFO] 2025-02-20 08:13:34,776 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4462
+[INFO] 2025-02-20 08:13:35,516 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4462
+[WARNING] 2025-02-20 08:13:36,860 log - Forbidden: /aplicatie_exemplu/add-product/
+[INFO] 2025-02-20 08:14:02,042 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\signals.py changed, reloading.
+[WARNING] 2025-02-20 08:14:03,205 log - Forbidden: /aplicatie_exemplu/add-product/
+[WARNING] 2025-02-20 08:14:42,345 log - Forbidden: /aplicatie_exemplu/add-product/
+[WARNING] 2025-02-20 08:14:42,826 log - Forbidden: /aplicatie_exemplu/add-product/
+[INFO] 2025-02-20 08:14:43,748 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4462
+[INFO] 2025-02-20 08:14:44,609 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4462
+[INFO] 2025-02-20 08:14:45,280 basehttp - "GET /aplicatie_exemplu/promotii/ HTTP/1.1" 200 4923
+[INFO] 2025-02-20 08:14:47,136 basehttp - "GET /aplicatie_exemplu/lista-promotii/ HTTP/1.1" 200 1750
+[WARNING] 2025-02-20 08:14:48,744 log - Forbidden: /aplicatie_exemplu/add-product/
+[WARNING] 2025-02-20 08:14:51,122 log - Forbidden: /aplicatie_exemplu/add-product/
+[INFO] 2025-02-20 08:14:52,362 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2980
+[WARNING] 2025-02-20 08:15:00,053 log - Forbidden: /aplicatie_exemplu/add-product/
+[INFO] 2025-02-20 08:15:01,764 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2980
+[INFO] 2025-02-20 08:15:02,837 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:15:02,853 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 08:15:09,780 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:15:09,821 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+[INFO] 2025-02-20 08:15:14,107 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:15:14,187 basehttp - "GET /admin/ HTTP/1.1" 200 15291
+[INFO] 2025-02-20 08:15:22,283 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4461
+[INFO] 2025-02-20 08:15:23,402 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 08:16:56,911 basehttp - "GET /admin/ HTTP/1.1" 200 15291
+[INFO] 2025-02-20 08:16:57,317 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:16:57,384 basehttp - "GET /admin/ HTTP/1.1" 200 15291
+[INFO] 2025-02-20 08:16:58,952 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 21116
+[INFO] 2025-02-20 08:16:59,100 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 7320
+[INFO] 2025-02-20 08:19:06,817 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 21116
+[INFO] 2025-02-20 08:19:06,938 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 7320
+[INFO] 2025-02-20 08:19:09,312 basehttp - "POST /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:19:09,400 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 21252
+[INFO] 2025-02-20 08:19:09,513 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 7320
+[INFO] 2025-02-20 08:19:14,537 basehttp - "POST /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:19:14,618 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 21260
+[INFO] 2025-02-20 08:19:14,722 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 7320
+[INFO] 2025-02-20 08:19:16,563 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 21116
+[INFO] 2025-02-20 08:19:17,302 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 21116
+[INFO] 2025-02-20 08:19:18,890 basehttp - "POST /admin/logout/ HTTP/1.1" 200 3571
+[INFO] 2025-02-20 08:19:20,242 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:19:20,258 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+[INFO] 2025-02-20 08:19:23,518 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:19:23,592 basehttp - "GET /admin/ HTTP/1.1" 200 4550
+[INFO] 2025-02-20 08:19:25,853 basehttp - "POST /admin/logout/ HTTP/1.1" 200 3571
+[INFO] 2025-02-20 08:19:26,969 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:19:26,985 basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+[INFO] 2025-02-20 08:19:31,847 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:19:31,919 basehttp - "GET /admin/ HTTP/1.1" 200 15378
+[INFO] 2025-02-20 08:32:51,041 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 08:32:57,866 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 4461
+[INFO] 2025-02-20 08:32:59,522 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2981
+[INFO] 2025-02-20 08:33:00,653 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:33:00,661 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 08:33:03,830 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:33:03,862 basehttp - "GET /aplicatie_exemplu/login/?next=/aplicatie_exemplu/profile/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 08:33:07,048 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3921
+[INFO] 2025-02-20 08:33:07,211 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 3921
+[INFO] 2025-02-20 08:33:08,830 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3744
+[INFO] 2025-02-20 08:34:27,881 basehttp - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:34:30,128 basehttp - - Broken pipe from ('127.0.0.1', 55746)
+[INFO] 2025-02-20 08:34:31,131 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:34:40,640 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:34:43,373 basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:34:43,478 basehttp - "GET /admin/ HTTP/1.1" 200 15378
+[INFO] 2025-02-20 08:34:55,919 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 08:35:00,609 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 5543
+[INFO] 2025-02-20 08:35:02,450 basehttp - "GET /aplicatie_exemplu/produse/ HTTP/1.1" 200 3744
+[INFO] 2025-02-20 08:35:04,669 basehttp - "GET /aplicatie_exemplu/add-product/ HTTP/1.1" 200 5537
+[INFO] 2025-02-20 08:35:06,743 basehttp - "GET /aplicatie_exemplu/contact/ HTTP/1.1" 200 5190
+[INFO] 2025-02-20 08:35:08,097 basehttp - "GET /aplicatie_exemplu/ HTTP/1.1" 200 5543
+[INFO] 2025-02-20 08:36:57,807 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\settings.py changed, reloading.
+[INFO] 2025-02-20 08:36:58,712 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:37:39,270 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2981
+[INFO] 2025-02-20 08:37:40,575 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 08:37:40,591 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 08:37:44,044 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 64
+[INFO] 2025-02-20 08:37:44,109 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2980
+[WARNING] 2025-02-20 08:37:55,767 log - Forbidden (CSRF token from POST incorrect.): /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 08:37:55,767 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 403 2506
+[WARNING] 2025-02-20 08:37:57,505 log - Forbidden (CSRF token from POST incorrect.): /aplicatie_exemplu/login/
+[WARNING] 2025-02-20 08:37:57,505 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 403 2506
+[INFO] 2025-02-20 08:38:23,587 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 7770
+[INFO] 2025-02-20 08:38:37,659 views - Utilizator nou înregistrat: ceva, email: sn0ker019@gmail.com
+[INFO] 2025-02-20 08:38:39,846 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 140
+[INFO] 2025-02-20 08:38:41,740 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 08:39:15,696 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 7770
+[INFO] 2025-02-20 08:42:56,031 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6016
+[INFO] 2025-02-20 08:43:09,399 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 181
+[INFO] 2025-02-20 08:43:13,720 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 6016
+[INFO] 2025-02-20 08:47:28,039 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 8268
+[INFO] 2025-02-20 08:47:28,828 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 267
+[INFO] 2025-02-20 08:47:28,856 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 215
+[INFO] 2025-02-20 08:47:31,614 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 215
+[INFO] 2025-02-20 08:47:31,641 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 289
+[INFO] 2025-02-20 08:47:31,684 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 289
+[INFO] 2025-02-20 08:47:34,403 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 233
+[INFO] 2025-02-20 08:47:37,432 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 159
+[INFO] 2025-02-20 08:47:37,575 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 159
+[INFO] 2025-02-20 08:47:38,311 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 159
+[INFO] 2025-02-20 08:47:38,515 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 233
+[INFO] 2025-02-20 08:47:39,838 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 159
+[INFO] 2025-02-20 08:47:39,929 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 159
+[INFO] 2025-02-20 08:47:41,801 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 82
+[INFO] 2025-02-20 08:47:46,850 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 82
+[INFO] 2025-02-20 08:47:48,138 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 74
+[INFO] 2025-02-20 08:47:48,246 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 74
+[INFO] 2025-02-20 08:47:48,268 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 74
+[INFO] 2025-02-20 08:47:48,418 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 74
+[INFO] 2025-02-20 08:47:48,923 views - Utilizator nou înregistrat: maryo1, email: sn0ker019@gmail.com
+[INFO] 2025-02-20 08:47:50,421 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 140
+[INFO] 2025-02-20 08:47:56,335 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 181
+[INFO] 2025-02-20 08:48:00,938 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:01,482 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:05,200 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:05,223 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:09,661 views - Utilizator nou înregistrat: maryo10, email: sn0ker019@gmail.com
+[ERROR] 2025-02-20 08:48:09,941 log - Internal Server Error: /aplicatie_exemplu/register/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "custom_user_phone_number_key"
+DETAIL:  Key (phone_number)=(0728646900) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py", line 157, in register
+    user.save()
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\auth\base_user.py", line 62, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "custom_user_phone_number_key"
+DETAIL:  Key (phone_number)=(0728646900) already exists.
+
+[ERROR] 2025-02-20 08:48:09,950 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 500 157360
+[INFO] 2025-02-20 08:48:10,678 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:48:11,113 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 140
+[INFO] 2025-02-20 08:48:17,354 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:48:21,867 views - Utilizator nou înregistrat: maryo100, email: sn0ker019@gmail.com
+[INFO] 2025-02-20 08:48:22,018 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:22,194 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[ERROR] 2025-02-20 08:48:22,236 log - Internal Server Error: /aplicatie_exemplu/register/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "custom_user_username_key"
+DETAIL:  Key (username)=(maryo100) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py", line 157, in register
+    user.save()
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\auth\base_user.py", line 62, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "custom_user_username_key"
+DETAIL:  Key (username)=(maryo100) already exists.
+
+[ERROR] 2025-02-20 08:48:22,243 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 500 157301
+[ERROR] 2025-02-20 08:48:22,298 log - Internal Server Error: /aplicatie_exemplu/register/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "custom_user_username_key"
+DETAIL:  Key (username)=(maryo100) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py", line 157, in register
+    user.save()
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\auth\base_user.py", line 62, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "custom_user_username_key"
+DETAIL:  Key (username)=(maryo100) already exists.
+
+[ERROR] 2025-02-20 08:48:22,306 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 500 157293
+[ERROR] 2025-02-20 08:48:22,378 log - Internal Server Error: /aplicatie_exemplu/register/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "custom_user_username_key"
+DETAIL:  Key (username)=(maryo100) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py", line 157, in register
+    user.save()
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\auth\base_user.py", line 62, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "custom_user_username_key"
+DETAIL:  Key (username)=(maryo100) already exists.
+
+[ERROR] 2025-02-20 08:48:22,381 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 500 157285
+[INFO] 2025-02-20 08:48:22,401 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:22,526 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:22,743 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:22,939 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:23,464 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 140
+[INFO] 2025-02-20 08:48:27,638 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:28,146 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:28,294 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:28,297 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:28,640 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:28,768 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:29,001 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:29,230 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:29,504 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:29,681 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:48:32,445 views - Utilizator nou înregistrat: m, email: sn0ker019@gmail.com
+[INFO] 2025-02-20 08:48:32,501 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[ERROR] 2025-02-20 08:48:32,653 log - Internal Server Error: /aplicatie_exemplu/register/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "custom_user_phone_number_key"
+DETAIL:  Key (phone_number)=(0732156522) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py", line 157, in register
+    user.save()
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\auth\base_user.py", line 62, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "custom_user_phone_number_key"
+DETAIL:  Key (phone_number)=(0732156522) already exists.
+
+[ERROR] 2025-02-20 08:48:32,663 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 500 157318
+[ERROR] 2025-02-20 08:48:32,726 log - Internal Server Error: /aplicatie_exemplu/register/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "custom_user_phone_number_key"
+DETAIL:  Key (phone_number)=(0732156522) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py", line 157, in register
+    user.save()
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\auth\base_user.py", line 62, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "custom_user_phone_number_key"
+DETAIL:  Key (phone_number)=(0732156522) already exists.
+
+[ERROR] 2025-02-20 08:48:32,729 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 500 157328
+[ERROR] 2025-02-20 08:48:32,878 log - Internal Server Error: /aplicatie_exemplu/register/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "custom_user_phone_number_key"
+DETAIL:  Key (phone_number)=(0732156522) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py", line 157, in register
+    user.save()
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\auth\base_user.py", line 62, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "custom_user_phone_number_key"
+DETAIL:  Key (phone_number)=(0732156522) already exists.
+
+[ERROR] 2025-02-20 08:48:32,880 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 500 157352
+[INFO] 2025-02-20 08:48:33,397 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:48:33,889 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 140
+[INFO] 2025-02-20 08:48:33,989 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:48:34,117 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:48:36,318 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:48:36,579 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:48:36,785 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:49:40,661 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:49:40,903 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 171
+[INFO] 2025-02-20 08:49:41,425 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 171
+[INFO] 2025-02-20 08:49:45,024 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 171
+[INFO] 2025-02-20 08:49:45,115 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:49:45,296 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:49:46,643 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:49:46,647 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 171
+[INFO] 2025-02-20 08:49:47,723 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:49:48,627 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:49:50,475 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:49:52,621 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:49:54,990 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:49:55,359 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 104
+[INFO] 2025-02-20 08:49:58,489 views - Utilizator nou înregistrat: maryo092, email: sn0ker019@gmail.com
+[ERROR] 2025-02-20 08:49:58,631 log - Internal Server Error: /aplicatie_exemplu/register/
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "custom_user_username_key"
+DETAIL:  Key (username)=(maryo092) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py", line 157, in register
+    user.save()
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\contrib\auth\base_user.py", line 62, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Maryo\virtualEnv\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "custom_user_username_key"
+DETAIL:  Key (username)=(maryo092) already exists.
+
+[ERROR] 2025-02-20 08:49:58,635 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 500 157363
+[INFO] 2025-02-20 08:49:59,505 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 181
+[INFO] 2025-02-20 08:49:59,785 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:50:00,735 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 140
+[INFO] 2025-02-20 08:50:02,537 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:50:04,365 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:50:04,521 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 107
+[INFO] 2025-02-20 08:50:05,292 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4458
+[INFO] 2025-02-20 08:50:06,249 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 8268
+[INFO] 2025-02-20 08:52:37,062 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 08:52:37,675 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:52:38,391 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 8268
+[INFO] 2025-02-20 08:52:38,436 basehttp - - Broken pipe from ('127.0.0.1', 56400)
+[INFO] 2025-02-20 08:52:38,443 basehttp - - Broken pipe from ('127.0.0.1', 56401)
+[INFO] 2025-02-20 08:52:40,941 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 215
+[INFO] 2025-02-20 08:52:41,038 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 267
+[INFO] 2025-02-20 08:53:04,977 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 7752
+[INFO] 2025-02-20 08:53:07,309 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 215
+[INFO] 2025-02-20 08:53:07,404 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 267
+[INFO] 2025-02-20 08:53:55,770 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 08:53:56,225 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:53:59,099 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 7752
+[INFO] 2025-02-20 08:54:00,660 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 267
+[INFO] 2025-02-20 08:54:00,664 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 215
+[INFO] 2025-02-20 08:54:53,423 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 215
+[INFO] 2025-02-20 08:54:53,570 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:54:54,712 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:54:54,945 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:54:55,170 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:54:55,859 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:54:57,425 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:54:57,433 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 212
+[INFO] 2025-02-20 08:54:57,539 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 212
+[INFO] 2025-02-20 08:54:59,679 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:54:59,853 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:54:59,986 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:00,225 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:00,355 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:00,465 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:00,710 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:00,827 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:00,967 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:01,114 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:01,790 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:02,021 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:02,148 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:02,178 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:02,311 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:02,446 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:02,583 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:03,166 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:03,680 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:03,717 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:03,751 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:03,787 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:03,840 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:03,922 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:04,497 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:04,927 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:05,189 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:05,196 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:05,452 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:05,579 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:05,911 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:06,491 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:06,812 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:07,172 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 138
+[INFO] 2025-02-20 08:55:09,292 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 82
+[INFO] 2025-02-20 08:55:11,481 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 82
+[INFO] 2025-02-20 08:55:12,805 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 74
+[INFO] 2025-02-20 08:55:12,927 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 74
+[INFO] 2025-02-20 08:55:13,023 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 74
+[INFO] 2025-02-20 08:55:13,240 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 74
+[INFO] 2025-02-20 08:55:13,783 views - Utilizator nou înregistrat: maryo0987, email: sn0ker019@gmail.com
+[INFO] 2025-02-20 08:55:14,664 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 181
+[INFO] 2025-02-20 08:55:15,474 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 62
+[INFO] 2025-02-20 08:55:47,817 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 7105
+[INFO] 2025-02-20 08:56:26,516 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 08:56:26,999 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 08:56:27,324 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 7105

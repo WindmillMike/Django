@@ -2,14 +2,140 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
-    <title>Înregistrare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Înregistrare Utilizator</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .register-container {
+            max-width: 450px;
+            width: 100%;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: auto;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .form-group {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #555;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .register-btn {
+            width: 100%;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .register-btn:hover {
+            background-color: #218838;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <h2>Înregistrare utilizator nou</h2>
-    <form method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Înregistrează-te</button>
-    </form>
+
+    <div class="register-container">
+        <h2>Înregistrare utilizator</h2>
+
+        <form id="register-form" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+
+            {% for field in form %}
+                <div class="form-group">
+                    <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                    {{ field }}
+                    <span class="error-message" id="error-{{ field.name }}"></span>
+                </div>
+            {% endfor %}
+
+            <button type="submit" class="register-btn">Înregistrează-te</button>
+        </form>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#register-form").on("submit", function(event) {
+                event.preventDefault();
+    
+                $.ajax({
+                    type: "POST",
+                    url: "{% url 'register' %}",
+                    data: new FormData(this),
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        if (response.success) {
+                            alert("Cont creat cu succes! Verifică e-mailul pentru confirmare.");
+                            window.location.href = response.redirect_url;
+                        } else {
+                            $(".error-message").text("");
+                            $.each(response.errors, function(field, error_list) {
+                                $("#error-" + field).text(error_list[0]);
+                            });
+                        }
+                    },
+                    error: function() {
+                        alert("Eroare la înregistrare. Încearcă din nou.");
+                    }
+                });
+            });
+        });
+    </script>
+
 </body>
 </html>

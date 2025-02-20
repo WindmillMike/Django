@@ -2,7 +2,96 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
-    <title>Adaugă produs</title>
+    <title>Adaugă Produs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120%;
+            margin: 0;
+            overflow-y: auto;
+        }
+
+        html {
+            height: 120%;
+            overflow-y: auto;
+        }
+        
+        .register-container {
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 450px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #555;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .btn-submit {
+            width: 100%;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .btn-submit:hover {
+            background-color: #218838;
+        }
+
+        .price-display {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #007BFF;
+        }
+    </style>
+
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             let priceInput = document.getElementById("id_price");
@@ -30,13 +119,54 @@
     </script>
 </head>
 <body>
-    <h1>Adaugă un produs</h1>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}  <!-- Afișează formularul Django -->
-        <button type="submit">Salvează</button>
-    </form>
-    
-    <p id="final_price">Preț final: 0.00 RON</p>
+
+    <div class="container">
+        <h1>Adaugă un produs</h1>
+        
+        <form method="post">
+            {% csrf_token %}
+
+            <div class="form-group">
+                <label for="id_name">Nume Produs:</label>
+                {{ form.name }}
+            </div>
+
+            <div class="form-group">
+                <label for="id_description">Descriere:</label>
+                {{ form.description }}
+            </div>
+
+            <div class="form-group">
+                <label for="id_category">Categorie:</label>
+                {{ form.category }}
+            </div>
+
+            <div class="form-group">
+                <label for="id_stock_quantity">Stoc:</label>
+                {{ form.stock_quantity }}
+            </div>
+
+            <div class="form-group">
+                <label for="id_price">Preț Inițial:</label>
+                {{ form.price }}
+            </div>
+
+            <div class="form-group">
+                <label for="id_discount_percentage">Procent reducere:</label>
+                {{ form.discount_percentage }}
+                <small>Introduceți un procent între 0 și 100.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="id_tax_percentage">Procent TVA:</label>
+                {{ form.tax_percentage }}
+            </div>
+
+            <button type="submit" class="btn-submit">Salvează</button>
+        </form>
+
+        <p id="final_price" class="price-display">Preț final: 0.00 RON</p>
+    </div>
+
 </body>
 </html>

@@ -7,61 +7,147 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
         }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
         #filter-form {
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
+            justify-content: center;
             margin-bottom: 20px;
-        }
-        input, select {
-            padding: 8px;
-            font-size: 16px;
-        }
-        .product-item {
-            border: 1px solid #ddd;
             padding: 15px;
-            margin-bottom: 10px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        input, select, button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
             border-radius: 5px;
+            outline: none;
+        }
+
+        button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .product-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 250px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .product-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .category {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #28a745;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            background: #007BFF;
+            color: white;
+            border-radius: 5px;
+            transition: background 0.2s;
+        }
+
+        .back-button:hover {
+            background: #0056b3;
         }
     </style>
 </head>
 <body>
 
-    <h2>Filtrează Produsele</h2>
+    <div class="container">
+        <h2>🔍 Filtrează Produsele</h2>
 
-    <form id="filter-form">
-        <input type="text" name="name" id="name-input" placeholder="Nume produs">
-        <select name="category">
-            <option value="">Toate categoriile</option>
-            {% for category in categories %}
-            <option value="{{ category.id }}">{{ category.name }}</option>
+        <form id="filter-form">
+            <input type="text" name="name" id="name-input" placeholder="🔍 Nume produs">
+            <select name="category">
+                <option value="">📂 Toate categoriile</option>
+                {% for category in categories %}
+                <option value="{{ category.id }}">{{ category.name }}</option>
+                {% endfor %}
+            </select>
+            <input type="number" name="min_price" placeholder="💰 Preț minim">
+            <input type="number" name="max_price" placeholder="💰 Preț maxim">
+            <input type="number" name="min_stock" placeholder="📦 Stoc minim">
+            <input type="number" name="max_stock" placeholder="📦 Stoc maxim">
+        </form>
+
+        <h2>🛒 Lista de Produse</h2>
+        <div id="product-list" class="product-list">
+            {% for product in products %}
+            <div class="product-item" onclick="redirectToProduct('{{ product.name }}')">
+                <h3>{{ product.name }}</h3>
+                <p class="price">💰 {{ product.price }} RON</p>
+                <p>📦 Stoc: {{ product.stock_quantity }}</p>
+                <p class="category">📂 Categorie: {{ product.category.name }}</p>
+            </div>
             {% endfor %}
-        </select>
-        <input type="number" name="min_price" placeholder="Preț minim">
-        <input type="number" name="max_price" placeholder="Preț maxim">
-        <input type="number" name="min_stock" placeholder="Stoc minim">
-        <input type="number" name="max_stock" placeholder="Stoc maxim">
-    </form>
-
-    <h2>Lista de Produse</h2>
-    <div id="product-list">
-        {% for product in products %}
-        <div class="product-item">
-            <h3>{{ product.name }}</h3>
-            <p>Preț: {{ product.price }} RON</p>
-            <p>Stoc: {{ product.stock_quantity }}</p>
-            <p>Categorie: {{ product.category.name }}</p>
         </div>
-        {% endfor %}
+
+        <a href="http://127.0.0.1:8000/aplicatie_exemplu/produse/" class="back-button">📜 Vezi Toate Produsele</a>
     </div>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const form = document.getElementById("filter-form");
-            const nameInput = document.getElementById("name-input");
 
             function updateProducts() {
                 const formData = new FormData(form);
@@ -79,18 +165,21 @@
                     productContainer.innerHTML = "";
 
                     if (data.products.length === 0) {
-                        productContainer.innerHTML = "<p>Niciun produs găsit.</p>";
+                        productContainer.innerHTML = "<p>❌ Niciun produs găsit.</p>";
                         return;
                     }
 
                     data.products.forEach(product => {
                         const productElement = document.createElement("div");
                         productElement.classList.add("product-item");
+                        productElement.onclick = function () {
+                            window.location.href = `/aplicatie_exemplu/produs/${encodeURIComponent(product.name)}/`;
+                        };
                         productElement.innerHTML = `
                             <h3>${product.name}</h3>
-                            <p>Preț: ${product.price} RON</p>
-                            <p>Stoc: ${product.stock_quantity}</p>
-                            <p>Categorie: ${product.category__name}</p>
+                            <p class="price">💰 ${product.price} RON</p>
+                            <p>📦 Stoc: ${product.stock_quantity}</p>
+                            <p class="category">📂 Categorie: ${product.category__name}</p>
                         `;
                         productContainer.appendChild(productElement);
                     });
@@ -98,11 +187,13 @@
                 .catch(error => console.error("Eroare la filtrare:", error));
             }
 
-            nameInput.addEventListener("keyup", updateProducts);
-            
             form.addEventListener("input", updateProducts);
             form.addEventListener("change", updateProducts);
         });
+
+        function redirectToProduct(productName) {
+            window.location.href = `http://127.0.0.1:8000/aplicatie_exemplu/produs/${encodeURIComponent(productName)}/`;
+        }
     </script>
 
 </body>
