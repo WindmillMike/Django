@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirmare cont - Magazin</title>
+</head>
+<body>
+    <h2>Bun venit, {{ user.first_name }} {{ user.last_name }}!</h2>
+    <p>Username-ul tău: <strong>{{ user.username }}</strong></p>
+    
+    <p>Pentru a confirma e-mailul, apasă pe linkul de mai jos:</p>
+<p><a href="{{ confirmation_link }}" style="background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Confirmă E-mailul</a></p>
+
+    <p>Dacă nu ai solicitat acest cont, poți ignora acest mesaj.</p>
+
+    <img src="URL_CĂTRE_LOGO" alt="Logo Site" style="width: 150px; margin-top: 20px;">
+</body>
+</html>

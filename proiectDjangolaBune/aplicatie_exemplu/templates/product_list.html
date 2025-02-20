@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Produse</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background-color: #f4f4f4; 
+            margin: 0; 
+            padding: 0;
+        }
+
+        .container { 
+            max-width: 900px; 
+            margin: 40px auto; 
+            background: white; 
+            padding: 20px; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+
+        h2 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .product {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 250px;
+            text-align: center;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .product a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            font-size: 18px;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .product a:hover {
+            text-decoration: underline;
+        }
+
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .action-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            background: #007BFF;
+            color: white;
+            border-radius: 5px;
+            transition: background 0.2s;
+        }
+
+        .action-button:hover {
+            background: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>🛒 Lista Produse</h2>
+    {% if produse %}
+        <div class="product-list">
+            {% for produs in produse %}
+                <div class="product">
+                    <a href="{% url 'produs_detail' nume_produs=produs.name %}">
+                        {{ produs.name }}
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p>❌ Nu există produse disponibile.</p>
+    {% endif %}
+
+    <div class="button-container">
+        <a href="/aplicatie_exemplu/" class="action-button">🏠 Înapoi la pagina principală</a>
+        <a href="/aplicatie_exemplu/filter-products/" class="action-button">🔍 Filtrare Produse</a>
+    </div>
+</div>
+
+</body>
+</html>

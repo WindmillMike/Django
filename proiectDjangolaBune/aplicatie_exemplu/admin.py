@@ -3,6 +3,9 @@ from django.utils.translation import gettext_lazy as _
 from .models import Category, Product, Order, OrderProduct, Supplier, ProductSupplier
 from django.contrib.auth.admin import UserAdmin
 from .models import CustomUser
+from .models import Promotie
+from .models import Vizualizare
+
 
 # Personalizare Admin Site - Schimbă titlurile afișate în panoul de administrare
 admin.site.site_header = "Panou de Administrare - Magazin"  # Titlul principal al Admin Panel
@@ -105,10 +108,47 @@ class ProductSupplierAdmin(admin.ModelAdmin):
     search_fields = ['product__name']  # Căutare după numele produsului
 
 #lab6 task1
+class VizualizareInline(admin.TabularInline):
+    model = Vizualizare
+    extra = 0  # Nu adaugă rânduri goale
+
+
+###lab 7 task 2
+@admin.register(Promotie)
+class PromotieAdmin(admin.ModelAdmin):
+    list_display = ('nume', 'data_expirare', 'discount')
+    search_fields = ('nume',)
+    list_filter = ('data_expirare',)
+
+
+class VizualizareAdmin(admin.ModelAdmin):
+    list_display = ('utilizator', 'produs', 'numar_vizualizari')  # Folosește direct câmpul existent
+    list_filter = ('utilizator',)
+    search_fields = ('utilizator__username', 'produs__name')
+
+admin.site.register(Vizualizare, VizualizareAdmin)
+
+####lab 8 task 2
 class CustomUserAdmin(UserAdmin):
     model = CustomUser
-    fieldsets = UserAdmin.fieldsets + (
-        ("Informații suplimentare", {"fields": ("phone_number", "date_of_birth", "address", "profile_picture", "newsletter_subscription", "company_name")}),
+    list_display = ('username', 'email', 'is_staff', 'is_active', 'phone_number', 'date_of_birth')
+    list_editable = ('is_staff', 'is_active')
+    list_filter = ('is_staff', 'is_active')
+    fieldsets = (
+        ("Informații de bază", {'fields': ('username', 'email', 'password')}),
+        ("Informații personale", {'fields': ('first_name', 'last_name', 'phone_number', 'date_of_birth', 'address', 'profile_picture')}),
+        ("Permisiuni", {'fields': ('is_staff', 'is_active', 'groups', 'user_permissions')}),
+        ("Altele", {'fields': ('newsletter_subscription', 'company_name')}),
     )
+    add_fieldsets = (
+        ("Creare utilizator", {
+            'classes': ('wide',),
+            'fields': ('username', 'email', 'password1', 'password2', 'is_staff', 'is_active')
+        }),
+    )
+    search_fields = ('username', 'email')
+    ordering = ('username',)
 
-admin.site.register(CustomUser, CustomUserAdmin)
+# Înregistrare doar dacă nu este deja înregistrat
+if not admin.site.is_registered(CustomUser):
+    admin.site.register(CustomUser, CustomUserAdmin)

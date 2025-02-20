@@ -1,5 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
+from django.conf import settings
+from django.utils.timezone import now
 
 # laboratorul 3 taskurile 2 si 3
 class Category(models.Model):
@@ -74,9 +76,57 @@ class CustomUser(AbstractUser):
     profile_picture = models.ImageField(upload_to='profile_pics/', blank=True, null=True, verbose_name="Poză de profil")
     newsletter_subscription = models.BooleanField(default=False, verbose_name="Abonat la newsletter")
     company_name = models.CharField(max_length=255, blank=True, null=True, verbose_name="Nume companie")
+    
+    cod = models.CharField(max_length=100, blank=True, null=True, unique=True)
+    email_confirmat = models.BooleanField(default=False)
 
     class Meta:
         db_table = "custom_user"
 
     def __str__(self):
         return self.username
+
+
+###lab 7 task 2
+
+class Vizualizare(models.Model):
+    utilizator = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    produs = models.ForeignKey('Product', on_delete=models.CASCADE)
+    data_vizualizare = models.DateTimeField(default=now)
+    numar_vizualizari = models.IntegerField(default=1) 
+
+    class Meta:
+        verbose_name = "Vizualizare"
+        verbose_name_plural = "Views" 
+        ordering = ['-data_vizualizare']  # Cele mai recente primele
+        
+    def __str__(self):
+        return f"{self.utilizator.username} a vizualizat {self.produs.name}"
+        
+
+class Promotie(models.Model):
+    nume = models.CharField(max_length=255)
+    data_creare = models.DateTimeField(auto_now_add=True)
+    data_expirare = models.DateTimeField()
+    categorie = models.ManyToManyField('Category')  # Promoția e valabilă pentru mai multe categorii
+    discount = models.DecimalField(max_digits=5, decimal_places=2)  # Discount în procente
+    descriere = models.TextField(blank=True, null=True)
+
+    class Meta:
+        verbose_name = "Promotion"
+        verbose_name_plural = "Promotions"  # Plural corect
+
+    def __str__(self):
+        return f"{self.nume} (Expiră: {self.data_expirare})"
+    
+
+###lab7 task 3
+class FailedLoginAttempt(models.Model):
+    username = models.CharField(max_length=150)
+    ip_address = models.GenericIPAddressField()
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.username} - {self.ip_address} - {self.timestamp}"
+    
+    
