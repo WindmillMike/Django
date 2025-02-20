@@ -3,13 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Înregistrare</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <h2>Înregistrare utilizator nou</h2>
-    <form method="post" enctype="multipart/form-data">
+
+    <div id="error-container" style="color: red;"></div> <!-- Container pentru erori -->
+    
+    <form id="register-form" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit">Înregistrează-te</button>
     </form>
+
+    <script>
+    $(document).ready(function() {
+        $("#register-form").submit(function(event) {
+            event.preventDefault(); // Oprește reîncărcarea paginii
+
+            $.ajax({
+                type: "POST",
+                url: "{% url 'register' %}",
+                data: new FormData(this),
+                processData: false,
+                contentType: false,
+                success: function(response) {
+                    if (response.success) {
+                        alert(response.message); // Afișează mesajul de succes
+                        window.location.href = response.redirect_url; // Redirect spre login
+                    } else {
+                        $("#error-container").html(""); // Șterge erorile vechi
+                        $.each(response.errors, function(field, error_list) {
+                            $("#error-container").append("<p>" + error_list[0] + "</p>");
+                        });
+                    }
+                }
+            });
+        });
+    });
+    </script>
 </body>
 </html>

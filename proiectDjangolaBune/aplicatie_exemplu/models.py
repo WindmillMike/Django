@@ -114,7 +114,17 @@ class Promotie(models.Model):
 
     class Meta:
         verbose_name = "Promotion"
-        verbose_name_plural = "Promotions"  # ✅ Plural corect
+        verbose_name_plural = "Promotions"  # Plural corect
 
     def __str__(self):
         return f"{self.nume} (Expiră: {self.data_expirare})"
+    
+
+###lab7 task 3
+class FailedLoginAttempt(models.Model):
+    username = models.CharField(max_length=150)
+    ip_address = models.GenericIPAddressField()
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.username} - {self.ip_address} - {self.timestamp}"
