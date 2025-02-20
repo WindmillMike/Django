@@ -8,6 +8,7 @@ from .views import creare_promotie
 from .views import lista_promotii
 from .views import lista_produse, produs_detail
 from .views import custom_login, custom_logout, profile, change_password
+from .views import pagina_protejata
 from django.shortcuts import render
 
 def dashboard(request):
@@ -29,4 +30,5 @@ urlpatterns = [
     path('lista-promotii/', lista_promotii, name='lista_promotii'),
     path('produs/<str:nume_produs>/', produs_detail, name='produs_detail'),
     path('produse/', lista_produse, name='lista_produse'),
+    path('pagina-protejata/', pagina_protejata, name='pagina_protejata'),
 ]

@@ -30,29 +30,11 @@
             color: #333;
         }
 
-        .messages {
-            list-style: none;
-            padding: 0;
-            margin-bottom: 15px;
-        }
-
-        .messages li {
-            padding: 10px;
-            border-radius: 5px;
-            text-align: center;
+        .error-message {
+            display: none;
+            color: red;
             font-size: 14px;
-        }
-
-        .messages .error {
-            background-color: #ffdddd;
-            color: #d8000c;
-            border: 1px solid #d8000c;
-        }
-
-        .messages .success {
-            background-color: #ddffdd;
-            color: #4caf50;
-            border: 1px solid #4caf50;
+            margin-bottom: 10px;
         }
 
         .form-group {
@@ -111,22 +93,17 @@
             text-decoration: underline;
         }
     </style>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 
     <div class="login-container">
         <h2>Autentificare</h2>
 
-        <!-- ✅ Afișarea mesajelor Django -->
-        {% if messages %}
-            <ul class="messages">
-                {% for message in messages %}
-                    <li class="{{ message.tags }}">{{ message }}</li>
-                {% endfor %}
-            </ul>
-        {% endif %}
+        <p id="error-message" class="error-message">Credentiale greșite.</p>
 
-        <form method="post">
+        <form id="loginForm" method="post">
             {% csrf_token %}
             
             <div class="form-group">
@@ -150,5 +127,30 @@
         <a href="{% url 'logout' %}" class="logout-link">Logout</a>
     </div>
 
+    <script>
+        $(document).ready(function(){
+            $("#loginForm").submit(function(event){
+                event.preventDefault();
+                $.ajax({
+                    url: "{% url 'login' %}",
+                    type: "POST",
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        if (response.success) {
+                            window.location.href = response.redirect_url;
+                        } else {
+                            $("#error-message").text(response.error).show();
+                        }
+                    },
+                    error: function(response) {
+                        $("#error-message").text("Eroare la autentificare. Verifică datele introduse.").show();
+                    }
+                });
+            });
+        });
+    </script>
+
 </body>
 </html>
+
+

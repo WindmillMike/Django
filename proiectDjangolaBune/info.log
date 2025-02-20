@@ -1,0 +1,116 @@
+[INFO] 2025-02-20 03:53:48,935 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 03:54:56,300 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 03:54:56,966 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 03:55:00,294 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 03:55:00,825 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 03:58:27,861 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 03:58:28,242 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 03:58:35,661 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 4444
+[INFO] 2025-02-20 03:58:39,342 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 63
+[INFO] 2025-02-20 03:58:39,415 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2324
+[INFO] 2025-02-20 03:58:40,455 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 03:58:40,463 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 03:59:00,332 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:00:09,279 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:00:09,849 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:01:20,966 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:01:21,575 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:01:43,186 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:01:47,663 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 4444
+[INFO] 2025-02-20 04:01:59,213 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:01:59,348 basehttp - "GET /admin/login/?next=/admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 4224
+[INFO] 2025-02-20 04:02:01,663 basehttp - "POST /admin/login/?next=/admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:02:01,871 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 16835
+[INFO] 2025-02-20 04:02:02,032 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:02:16,769 basehttp - "GET /aplicatie_exemplu/register/ HTTP/1.1" 200 3462
+[INFO] 2025-02-20 04:02:39,231 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:41,545 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:44,777 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:45,282 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:45,968 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:46,431 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:46,651 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 66
+[INFO] 2025-02-20 04:02:51,218 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 170
+[INFO] 2025-02-20 04:02:51,613 basehttp - "POST /aplicatie_exemplu/register/ HTTP/1.1" 200 140
+[INFO] 2025-02-20 04:02:52,942 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:03:38,051 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:03:38,736 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:03:39,742 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:03:43,796 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:03:47,999 basehttp - "POST /aplicatie_exemplu/login/ HTTP/1.1" 200 63
+[INFO] 2025-02-20 04:03:48,081 basehttp - "GET /aplicatie_exemplu/profile/ HTTP/1.1" 200 2324
+[INFO] 2025-02-20 04:03:49,656 basehttp - "GET /aplicatie_exemplu/logout/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:03:49,664 basehttp - "GET /aplicatie_exemplu/login/ HTTP/1.1" 200 4428
+[INFO] 2025-02-20 04:13:55,213 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:13:55,863 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:14:21,798 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\settings.py changed, reloading.
+[INFO] 2025-02-20 04:14:22,470 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:14:53,557 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\settings.py changed, reloading.
+[INFO] 2025-02-20 04:14:54,112 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:15:17,927 autoreload - C:\Users\Maryo\proiectDjangolaBune\proiectDjango2\settings.py changed, reloading.
+[INFO] 2025-02-20 04:15:18,533 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:16:12,068 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:16:12,601 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:16:20,104 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:16:20,700 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:17:07,001 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:17:07,676 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:17:13,015 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:17:13,542 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:17:30,234 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 04:17:30,819 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:17:36,177 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\urls.py changed, reloading.
+[INFO] 2025-02-20 04:17:36,869 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:18:01,759 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:18:02,246 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:18:10,631 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:18:11,282 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:18:32,062 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:18:32,610 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:20:35,653 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\admin.py changed, reloading.
+[INFO] 2025-02-20 04:20:36,351 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:21:45,138 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:21:45,720 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:22:01,261 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:22:01,744 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:22:18,287 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:22:18,770 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:22:52,677 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:22:53,200 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:23:58,695 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\views.py changed, reloading.
+[INFO] 2025-02-20 04:23:59,168 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:24:56,592 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:25:30,609 autoreload - C:\Users\Maryo\proiectDjangolaBune\aplicatie_exemplu\admin.py changed, reloading.
+[INFO] 2025-02-20 04:25:31,244 autoreload - Watching for file changes with StatReloader
+[INFO] 2025-02-20 04:27:23,773 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:27:23,878 basehttp - "GET /admin/login/?next=/admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 4224
+[INFO] 2025-02-20 04:27:25,822 basehttp - "POST /admin/login/?next=/admin/aplicatie_exemplu/customuser/ HTTP/1.1" 302 0
+[INFO] 2025-02-20 04:27:26,060 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19315
+[INFO] 2025-02-20 04:27:26,167 basehttp - "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[INFO] 2025-02-20 04:27:26,216 basehttp - "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[INFO] 2025-02-20 04:27:26,233 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:28,970 basehttp - "GET /admin/aplicatie_exemplu/promotie/ HTTP/1.1" 200 15493
+[INFO] 2025-02-20 04:27:29,101 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:29,994 basehttp - "GET /admin/aplicatie_exemplu/supplier/ HTTP/1.1" 200 11748
+[INFO] 2025-02-20 04:27:30,130 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:30,791 basehttp - "GET /admin/aplicatie_exemplu/vizualizare/ HTTP/1.1" 200 15577
+[INFO] 2025-02-20 04:27:30,913 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:33,274 basehttp - "GET /admin/aplicatie_exemplu/product/ HTTP/1.1" 200 16249
+[INFO] 2025-02-20 04:27:33,399 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:34,306 basehttp - "GET /admin/aplicatie_exemplu/productsupplier/ HTTP/1.1" 200 11802
+[INFO] 2025-02-20 04:27:34,529 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:35,178 basehttp - "GET /admin/aplicatie_exemplu/order/ HTTP/1.1" 200 13272
+[INFO] 2025-02-20 04:27:35,318 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:36,274 basehttp - "GET /admin/aplicatie_exemplu/orderproduct/ HTTP/1.1" 200 11781
+[INFO] 2025-02-20 04:27:36,491 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:37,048 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19315
+[INFO] 2025-02-20 04:27:37,262 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:45,671 basehttp - "GET /admin/aplicatie_exemplu/category/ HTTP/1.1" 200 13038
+[INFO] 2025-02-20 04:27:45,803 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:46,588 basehttp - "GET /admin/aplicatie_exemplu/customuser/ HTTP/1.1" 200 19315
+[INFO] 2025-02-20 04:27:46,719 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:47,993 basehttp - "GET /admin/auth/group/ HTTP/1.1" 200 11703
+[INFO] 2025-02-20 04:27:48,218 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:27:49,847 basehttp - "GET /admin/aplicatie_exemplu/category/ HTTP/1.1" 200 13038
+[INFO] 2025-02-20 04:27:49,978 basehttp - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-02-20 04:28:07,649 autoreload - Watching for file changes with StatReloader
