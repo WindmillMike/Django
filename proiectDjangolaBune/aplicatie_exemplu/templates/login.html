@@ -30,6 +30,13 @@
             color: #333;
         }
 
+        .error-message {
+            display: none;
+            color: red;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
         .form-group {
             text-align: left;
             margin-bottom: 15px;
@@ -86,12 +93,18 @@
             text-decoration: underline;
         }
     </style>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 
     <div class="login-container">
         <h2>Autentificare</h2>
-        <form method="post">
+
+
+        <p id="error-message" class="error-message">Credentiale greșite.</p>
+
+        <form id="loginForm" method="post">
             {% csrf_token %}
             
             <div class="form-group">
@@ -112,8 +125,32 @@
             <button type="submit" class="login-btn">Login</button>
         </form>
 
-        <a href="{% url 'logout' %}" class="logout-link">Logout</a>
+        <a href="{% url 'register' %}" class="logout-link">Nu ai cont? Înregistrează-te!</a>
+
     </div>
+
+    <script>
+        $(document).ready(function(){
+            $("#loginForm").submit(function(event){
+                event.preventDefault();
+                $.ajax({
+                    url: "{% url 'login' %}",
+                    type: "POST",
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        if (response.success) {
+                            window.location.href = response.redirect_url;
+                        } else {
+                            $("#error-message").text(response.error).show();
+                        }
+                    },
+                    error: function(response) {
+                        $("#error-message").text("Eroare la autentificare. Verifică datele introduse.").show();
+                    }
+                });
+            });
+        });
+    </script>
 
 </body>
 </html>

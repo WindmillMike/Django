@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Promoții</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; }
+        .container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); }
+        h2 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; border-bottom: 1px solid #ddd; }
+        th { background-color: #28a745; color: white; }
+        .back-link { display: block; margin-top: 20px; text-decoration: none; color: #007BFF; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Lista Promoții</h2>
+        {% if promotii %}
+            <table>
+                <tr>
+                    <th>Nume</th>
+                    <th>Expirare</th>
+                    <th>Discount</th>
+                </tr>
+                {% for promotie in promotii %}
+                <tr>
+                    <td>{{ promotie.nume }}</td>
+                    <td>{{ promotie.data_expirare }}</td>
+                    <td>{{ promotie.discount }}%</td>
+                </tr>
+                {% endfor %}
+            </table>
+        {% else %}
+            <p>Nu există promoții active.</p>
+        {% endif %}
+        <a href="{% url 'creare_promotie' %}" class="back-link">Adaugă o nouă promoție</a>
+    </div>
+</body>
+</html>

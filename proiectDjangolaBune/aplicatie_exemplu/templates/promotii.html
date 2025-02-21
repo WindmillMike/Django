@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaugă Promoție</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .messages {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 15px;
+        }
+
+        .messages li {
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .messages .error {
+            background-color: #ffdddd;
+            color: #d8000c;
+            border: 1px solid #d8000c;
+        }
+
+        .messages .success {
+            background-color: #ddffdd;
+            color: #4caf50;
+            border: 1px solid #4caf50;
+        }
+
+        .form-group {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #555;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            height: 80px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+
+        .back-link {
+            margin-top: 15px;
+            display: block;
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 14px;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .checkbox-group label {
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .errorlist {
+            color: red;
+            font-size: 14px;
+            list-style: none;
+            padding-left: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Adaugă Promoție</h2>
+
+        <!-- ✅ Afișarea mesajelor Django -->
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    <li class="{{ message.tags }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        <form method="post">
+            {% csrf_token %}
+
+            <div class="form-group">
+                <label for="id_nume">Nume Promoție:</label>
+                {{ form.nume }}
+                {{ form.nume.errors }}
+            </div>
+
+            <div class="form-group">
+                <label for="id_data_expirare">Data Expirării (DD/MM/YYYY):</label>
+                {{ form.data_expirare }}
+                {{ form.data_expirare.errors }}
+            </div>
+
+            <div class="form-group">
+                <label for="id_discount">Discount (%):</label>
+                {{ form.discount }}
+                {{ form.discount.errors }}
+            </div>
+
+            <div class="form-group">
+                <label for="id_descriere">Descriere:</label>
+                {{ form.descriere }}
+                {{ form.descriere.errors }}
+            </div>
+
+            <div class="form-group">
+                <label for="id_categorii">Categorii:</label>
+                <div class="checkbox-group">
+                    {{ form.categorii }}
+                </div>
+                {{ form.categorii.errors }}
+            </div>
+
+            <button type="submit" class="submit-btn">Creează Promoție</button>
+        </form>
+
+        <a href="{% url 'index' %}" class="back-link">Înapoi la pagină principală</a>
+    </div>
+
+</body>
+</html>

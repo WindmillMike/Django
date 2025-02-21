@@ -38,7 +38,91 @@ INSTALLED_APPS = [
     'django.contrib.messages',      # Mesaje one-time pentru utilizatori
     'django.contrib.staticfiles',   # Gestionarea fișierelor statice (CSS, JS etc.)
     'aplicatie_exemplu.apps.AplicatieExempluConfig',                   # Aplicație definită de utilizator (ex. myapp)
+    'django_celery_beat',
 ]
+
+CELERY_BROKER_URL = 'redis://localhost:6379/0'  # Asigură-te că ai Redis instalat
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+
+####lab 7 task 4
+import os
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+
+    'formatters': {
+        'verbose': {
+            'format': '[{levelname}] {asctime} {module} - {message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '[{levelname}] {message}',
+            'style': '{',
+        },
+    },
+
+    'handlers': {
+        'debug_file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'debug.log'),
+            'formatter': 'verbose',
+        },
+        'info_file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'info.log'),
+            'formatter': 'verbose',
+        },
+        'warning_file': {
+            'level': 'WARNING',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'warning.log'),
+            'formatter': 'verbose',
+        },
+        'error_file': {
+            'level': 'ERROR',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'error.log'),
+            'formatter': 'verbose',
+        },
+        'critical_file': {
+            'level': 'CRITICAL',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'critical.log'),
+            'formatter': 'verbose',
+        },
+        'console': {
+            'level': 'WARNING',
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple',
+        },
+    },
+
+    'loggers': {
+        'django': {
+            'handlers': ['debug_file', 'info_file', 'warning_file', 'error_file', 'critical_file', 'console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
+
+###lab 7 task 3
+ADMINS = [
+    ("Admin1", "Sn0ker019@gmail.com"),
+    ("Admin2", "maryobotea5@gmail.com"),
+]
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'Sn0ker019@gmail.com'  # Înlocuiește cu adresa ta reală
+EMAIL_HOST_PASSWORD = 'ihwj jgpe rlpt jtfg'  # Ai grijă să nu salvezi parola în cod
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 AUTH_USER_MODEL = 'aplicatie_exemplu.CustomUser'
 
@@ -51,6 +135,17 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+from django.contrib.messages import constants as messages
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
+
+###lab 8 task 1
+HANDLER403 = 'aplicatie_exemplu.views.custom_403_view'
+
+LOGIN_URL = '/aplicatie_exemplu/login/'  # Setează URL-ul corect pentru login
+LOGIN_REDIRECT_URL = '/'  # După login, utilizatorul va fi redirecționat aici
 
 ROOT_URLCONF = 'proiectDjango2.urls'
 
@@ -70,6 +165,17 @@ TEMPLATES = [
     },
 ]
 
+##lab 9 task 1
+from django.contrib.messages import constants as messages
+
+MESSAGE_TAGS = {
+    messages.DEBUG: 'debug',
+    messages.INFO: 'info',
+    messages.SUCCESS: 'success',
+    messages.WARNING: 'warning',
+    messages.ERROR: 'danger',
+}
+
 WSGI_APPLICATION = 'proiectDjango2.wsgi.application'
 
 
@@ -83,14 +189,12 @@ DATABASES = {
                 'options': '-c search_path=django'
         },
         'NAME': 'baza3',   # numele bazei de date
-        'USER': 'maryo5',      # username pt conexiunea la baza de date
+        'USER': 'maryo6',      # username pt conexiunea la baza de date
         'PASSWORD': 'maryo',
         'HOST': 'localhost',  # sau IP-ul serverului
         'PORT': '5432',       # portul implicit pentru PostgreSQL
     }
 }
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
@@ -113,13 +217,16 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ro'
 
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
+USE_L10N = True
 
 USE_TZ = True
+
+DATE_INPUT_FORMATS = ['%Y-%m-%d', '%d/%m/%Y', '%d-%m-%Y']
 
 
 # Static files (CSS, JavaScript, Images)

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principală</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #007BFF;
+            padding: 15px;
+            color: white;
+            font-size: 18px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .navbar a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .messages {
+            max-width: 600px;
+            margin: 10px auto;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .alert {
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .alert-success { background-color: #28a745; color: white; }
+        .alert-info { background-color: #17a2b8; color: white; }
+        .alert-warning { background-color: #ffc107; color: black; }
+        .alert-danger { background-color: #dc3545; color: white; }
+        .alert-debug { background-color: #6c757d; color: white; }
+
+        .container {
+            flex-grow: 1;
+            margin-top: 20px;
+        }
+
+        .admin-options, .user-options {
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            color: white;
+            background-color: #28a745;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #218838;
+        }
+
+        /* Banner pentru ofertă */
+        .banner {
+            display: none;
+            width: 100%;
+            background: red;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-links">
+            <a href="/aplicatie_exemplu/">🏠 Acasă</a>
+            <a href="/aplicatie_exemplu/contact/">📩 Contact Us</a>
+        </div>
+
+        {% if request.user.is_authenticated %}
+            <a href="/aplicatie_exemplu/profile">{{ request.user.username }}</a>
+        {% else %}
+            <a href="/aplicatie_exemplu/login">Autentificare</a>
+        {% endif %}
+    </div>
+
+    <!-- Afișare mesaje Django -->
+    <div class="messages">
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+
+    <div class="container">
+        <h1>Bine ai venit pe site!</h1>
+        <p>Aceasta este pagina principală. Explorează mai multe funcționalități.</p>
+
+        <div class="user-options">
+            <a href="/aplicatie_exemplu/produse/" class="btn">📋 Vezi Lista de Produse</a>
+        </div>
+
+        {% if request.user.is_authenticated and request.user.is_staff %}
+        <div class="admin-options">
+            <h2>Opțiuni Administrator</h2>
+            <a href="/aplicatie_exemplu/promotii/" class="btn">➕ Adaugă o Promoție</a>
+            <a href="/aplicatie_exemplu/lista-promotii/" class="btn">📜 Vezi Lista de Promoții</a>
+            <a href="/aplicatie_exemplu/add-product/" class="btn">🛍️ Adaugă un Produs</a>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Banner ofertă (fixat jos) -->
+    {% if request.user.is_authenticated %}
+        <div id="offer-banner" class="banner" onclick="claimOffer()">🔥 Oferta: Reducere doar pentru utilizatorii logați! Click aici! 🔥</div>
+    {% endif %}
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let probability = Math.random();
+            let isUserLoggedIn = {{ request.user.is_authenticated|lower }};
+        
+            if (probability < 0.3 && isUserLoggedIn) {  
+                document.getElementById("offer-banner").style.display = "block";
+            }
+        
+            // Gestionarea alertelor - doar una afișată la un moment dat
+            let messagesContainer = document.querySelector(".messages");
+            let alerts = document.querySelectorAll(".alert");
+        
+            if (alerts.length > 0) {
+                let firstAlert = alerts[0]; // Păstrează doar primul mesaj
+                alerts.forEach((alert, index) => {
+                    if (index > 0) alert.remove(); // Elimină restul mesajelor
+                });
+        
+                // Ascunde mesajul după 5 secunde
+                setTimeout(() => {
+                    firstAlert.style.display = "none";
+                }, 5000);
+            }
+        });
+        
+        function claimOffer() {
+            fetch("{% url 'claim_offer' %}", { 
+                method: "POST",
+                headers: {
+                    "X-CSRFToken": "{{ csrf_token }}",
+                    "Content-Type": "application/json"
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    window.location.href = "{% url 'oferta' %}";
+                } else {
+                    alert("Eroare la revendicare ofertă: " + data.error);
+                }
+            })
+            .catch(error => console.error("Eroare la cerere:", error));
+        }
+    </script>
+</body>
+</html>
